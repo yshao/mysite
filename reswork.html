@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CV/Website - Software</title>
+<title>CV/Website - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,14 +60,56 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="styles.css">
-</head>
+<link rel="alternate" type="application/rss+xml" title="CV/Website" href="reswork.xml"></head>
 
 <body class="nav-fixed">
 
@@ -96,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reswork.html">
+    <a class="nav-link active" href="./reswork.html" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item compact">
@@ -118,22 +162,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
-   
-  <ul>
-  <li><a href="#tidyhte" id="toc-tidyhte" class="nav-link active" data-scroll-target="#tidyhte"><code>tidyhte</code></a></li>
-  <li><a href="#regweight" id="toc-regweight" class="nav-link" data-scroll-target="#regweight"><code>regweight</code></a></li>
-  <li><a href="#rdd" id="toc-rdd" class="nav-link" data-scroll-target="#rdd"><code>rdd</code></a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="demo">demo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="experimental-design">experimental-design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="website">website <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Software</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
@@ -148,43 +184,90 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<h2 id="tidyhte" class="anchored"><code>tidyhte</code></h2>
-<p><code>tidyhte</code> provides tidy semantics for estimation of heterogeneous treatment effects through the use of Kennedy’s (n.d.) doubly-robust learner.<br>
-The goal of <code>tidyhte</code> is to use a sort of “recipe” design. This should (hopefully) make it extremely easy to scale an analysis of HTE from the common single-outcome / single-moderator case to many outcomes and many moderators. The configuration of <code>tidyhte</code> should make it extremely easy to perform the same analysis across many outcomes and for a wide-array of moderators. It’s written to be fairly easy to extend to different models and to add additional diagnostics and ways to output information from a set of HTE estimates.</p>
-<a class="btn btn-outline-dark btn-sm" ,="" href="https://ddimmery.github.io/tidyhte/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-info" role="img" aria-label="Website"></i>
-        Website
-    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://github.com/ddimmery/tidyhte" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github" role="img" aria-label="Github"></i>
-        Github
-    </a>
-<h2 id="regweight" class="anchored"><code>regweight</code></h2>
-<p>The goal of <code>regweight</code> is to make it easy to diagnose a model using Aronow and Samii (2015) regression weights.<br>
-In short, these weights show which observations are most influential for determining the observed value of a coefficient in a linear regression. If the linear regression is aiming to estimate causal effects, this implies that the OLS estimand may differ from the average treatment effect. These linear regression weights provide, in some sense, the most precise estimate available given a conditioning set (and a linear model). These weights are in expectation the conditional variance of the variable of interest (given the other covariates in the model).</p>
-<a class="btn btn-outline-dark btn-sm" ,="" href="https://ddimmery.github.io/regweight/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-info" role="img" aria-label="Website"></i>
-        Website
-    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://github.com/ddimmery/regweight" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github" role="img" aria-label="Github"></i>
-        Github
-    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://cran.r-project.org/package=regweight" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-box-seam" role="img" aria-label="Package"></i>
-        Package
-    </a>
-<h2 id="rdd" class="anchored"><code>rdd</code></h2>
-<p><strong>Outdated!</strong> Users should switch to <a href="https://rdpackages.github.io/">actively maintained and updated RD tools</a>.<br>
-Provides the tools to undertake estimation in Regression Discontinuity Designs. Both sharp and fuzzy designs are supported. Estimation is accomplished using local linear regression. A provided function will utilize Imbens-Kalyanaraman optimal bandwidth calculation. A function is also included to test the assumption of no-sorting effects.</p>
-<a class="btn btn-outline-dark btn-sm" ,="" href="https://github.com/ddimmery/rdd" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github" role="img" aria-label="Github"></i>
-        Github
-    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://cran.r-project.org/package=rdd" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-box-seam" role="img" aria-label="Package"></i>
-        Package
-    </a>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="website" data-listing-date-sort="1652241600000" data-listing-file-modified-sort="1670690294881" data-listing-reading-time-sort="13.355">
+<div class="thumbnail">
+<p><a href="./posts/quarto-website/index.html"> <img src="./posts/quarto-website/tobias-meme.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/quarto-website/index.html">
+<h3 class="no-anchor listing-title">
+Quarto for an Academic Website
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('website'); return false;">
+website
+</div>
+</div>
+<a href="./posts/quarto-website/index.html">
+<div class="listing-description">
+<p>I continue my long search for a way to generate a nicely formatted website with publication list based on adding publication information to a single source of truth without re-remembering how all the formatting works each time.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/quarto-website/index.html">
+<div class="listing-date">
+May 11, 2022
+</div>
+<div class="listing-author">
+Drew Dimmery
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="experimental-design,demo" data-listing-date-sort="1652155200000" data-listing-file-modified-sort="1670690294884" data-listing-reading-time-sort="10.695">
+<div class="thumbnail">
+<p><a href="./posts/softblock-demo/index.html"> <img src="./posts/softblock-demo/three-designs.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/softblock-demo/index.html">
+<h3 class="no-anchor listing-title">
+Using SoftBlock to Design an Experiment
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('experimental-design'); return false;">
+experimental-design
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('demo'); return false;">
+demo
+</div>
+</div>
+<a href="./posts/softblock-demo/index.html">
+<div class="listing-description">
+<p>In this demo, I’m going to walk through an example experimental design using methods from our <span>recent paper on Balanced Design</span>.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/softblock-demo/index.html">
+<div class="listing-date">
+May 10, 2022
+</div>
+<div class="listing-author">
+Drew Dimmery
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

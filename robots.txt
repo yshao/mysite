@@ -1,1 +1,1 @@
-Sitemap: https://yshao.github.io/quarto/sitemap.xml
+Sitemap: https://yshao.github.io/mysite/sitemap.xml

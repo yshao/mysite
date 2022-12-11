@@ -5,5 +5,12 @@
       "/posts/quarto-website/index.html",
       "/posts/softblock-demo/index.html"
     ]
+  },
+  {
+    "listing": "/reswork.html",
+    "items": [
+      "/posts/quarto-website/index.html",
+      "/posts/softblock-demo/index.html"
+    ]
   }
 ]

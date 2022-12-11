@@ -6,8 +6,8 @@
       version="2.0">
 <channel>
 <title>CV/Website</title>
-<link>https://yshao.github.io/mysite/blog.html</link>
-<atom:link href="https://yshao.github.io/mysite/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://yshao.github.io/mysite/reswork.html</link>
+<atom:link href="https://yshao.github.io/mysite/reswork.xml" rel="self" type="application/rss+xml"/>
 <description>Academic website of Yuping Shao</description>
 <generator>quarto-1.2.269</generator>
 <lastBuildDate>Wed, 11 May 2022 04:00:00 GMT</lastBuildDate>

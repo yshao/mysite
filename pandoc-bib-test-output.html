@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CV/Website - Software</title>
+<title>CV/Website – pandoc-bib-test-output</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,9 +59,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -118,69 +115,19 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
-   
-  <ul>
-  <li><a href="#tidyhte" id="toc-tidyhte" class="nav-link active" data-scroll-target="#tidyhte"><code>tidyhte</code></a></li>
-  <li><a href="#regweight" id="toc-regweight" class="nav-link" data-scroll-target="#regweight"><code>regweight</code></a></li>
-  <li><a href="#rdd" id="toc-rdd" class="nav-link" data-scroll-target="#rdd"><code>rdd</code></a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Software</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<h2 id="tidyhte" class="anchored"><code>tidyhte</code></h2>
-<p><code>tidyhte</code> provides tidy semantics for estimation of heterogeneous treatment effects through the use of Kennedy’s (n.d.) doubly-robust learner.<br>
-The goal of <code>tidyhte</code> is to use a sort of “recipe” design. This should (hopefully) make it extremely easy to scale an analysis of HTE from the common single-outcome / single-moderator case to many outcomes and many moderators. The configuration of <code>tidyhte</code> should make it extremely easy to perform the same analysis across many outcomes and for a wide-array of moderators. It’s written to be fairly easy to extend to different models and to add additional diagnostics and ways to output information from a set of HTE estimates.</p>
-<a class="btn btn-outline-dark btn-sm" ,="" href="https://ddimmery.github.io/tidyhte/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-info" role="img" aria-label="Website"></i>
-        Website
-    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://github.com/ddimmery/tidyhte" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github" role="img" aria-label="Github"></i>
-        Github
-    </a>
-<h2 id="regweight" class="anchored"><code>regweight</code></h2>
-<p>The goal of <code>regweight</code> is to make it easy to diagnose a model using Aronow and Samii (2015) regression weights.<br>
-In short, these weights show which observations are most influential for determining the observed value of a coefficient in a linear regression. If the linear regression is aiming to estimate causal effects, this implies that the OLS estimand may differ from the average treatment effect. These linear regression weights provide, in some sense, the most precise estimate available given a conditioning set (and a linear model). These weights are in expectation the conditional variance of the variable of interest (given the other covariates in the model).</p>
-<a class="btn btn-outline-dark btn-sm" ,="" href="https://ddimmery.github.io/regweight/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-info" role="img" aria-label="Website"></i>
-        Website
-    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://github.com/ddimmery/regweight" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github" role="img" aria-label="Github"></i>
-        Github
-    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://cran.r-project.org/package=regweight" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-box-seam" role="img" aria-label="Package"></i>
-        Package
-    </a>
-<h2 id="rdd" class="anchored"><code>rdd</code></h2>
-<p><strong>Outdated!</strong> Users should switch to <a href="https://rdpackages.github.io/">actively maintained and updated RD tools</a>.<br>
-Provides the tools to undertake estimation in Regression Discontinuity Designs. Both sharp and fuzzy designs are supported. Estimation is accomplished using local linear regression. A provided function will utilize Imbens-Kalyanaraman optimal bandwidth calculation. A function is also included to test the assumption of no-sorting effects.</p>
-<a class="btn btn-outline-dark btn-sm" ,="" href="https://github.com/ddimmery/rdd" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github" role="img" aria-label="Github"></i>
-        Github
-    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://cran.r-project.org/package=rdd" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-box-seam" role="img" aria-label="Package"></i>
-        Package
-    </a>
+<p>Bucklin, Abigail A, Wolfgang Ganglberger, Syed A Quadri, Ryan A Tesh, Noor Adra, Madalena Da Silva Cardoso, Michael J Leone, et al.&nbsp;2022. “High Prevalence of Sleep-Disordered Breathing in the Intensive Care Unit - a Cross-Sectional Study.” <em>Sleep &amp;Amp; Breathing = Schlaf &amp;Amp; Atmung</em>. <a href="https://doi.org/10.1007/s11325-022-02698-9" class="uri">https://doi.org/10.1007/s11325-022-02698-9</a>.</p>
+<p>Ganglberger, Wolfgang, Parimala Velpula Krishnamurthy, Syed Quadri, Ryan Tesh, Abigail Bucklin, Noor Adra, Madalena Cardoso, et al.&nbsp;2021. “Sleep in the Intensive Care Unit Through the Lens of Breathing and Heart Rate Variability: A Cross-Sectional Study.” <a href="https://doi.org/10.1101/2021.09.23.21264039" class="uri">https://doi.org/10.1101/2021.09.23.21264039</a>.</p>
+<p>Mukerji, Shibani S., Sudeshna Das, Haitham Alabsi, Laura N. Brenner, Aayushee Jain, Colin Magdamo, Sarah I. Collens, et al.&nbsp;2021. “Prolonged Intubation in Patients with Prior Cerebrovascular Disease and COVID-19.” <em>Frontiers in Neurology</em> 12. <a href="https://doi.org/10.3389/fneur.2021.642912" class="uri">https://doi.org/10.3389/fneur.2021.642912</a>.</p>
+<p>Shashikumar, Supreeth P., Gabriel Wardi, Paulina Paul, Morgan Carlile, Laura N. Brenner, Kathryn A. Hibbert, Crystal M. North, et al.&nbsp;2021. “Development and Prospective Validation of a Deep Learning Algorithm for Predicting Need for Mechanical Ventilation.” <em>Chest</em> 159 (6): 2264–73. https://doi.org/<a href="https://doi.org/10.1016/j.chest.2020.12.009" class="uri">https://doi.org/10.1016/j.chest.2020.12.009</a>.</p>
+<p>Shenoy, Erica, Eric Rosenthal, Yu-Ping Shao, Siddharth Biswal, Manohar Ghanta, Erin Ryan, Dolores Suslak, et al.&nbsp;2018. “Real-Time, Automated Detection of Ventilator-Associated Events: Avoiding Missed Detections, Misclassifications, and False Detections Due to Human Error.” <em>Infection Control &amp; Hospital Epidemiology</em> 39 (May): 1–8. <a href="https://doi.org/10.1017/ice.2018.97" class="uri">https://doi.org/10.1017/ice.2018.97</a>.</p>
+<p>Sun, Haoqi, Aayushee Jain, Michael J Leone, Haitham S Alabsi, Laura N Brenner, Elissa Ye, Wendong Ge, et al.&nbsp;2020. “<span class="nocase">CoVA: An Acuity Score for Outpatient Screening that Predicts Coronavirus Disease 2019 Prognosis</span>.” <em>The Journal of Infectious Diseases</em> 223 (1): 38–46. <a href="https://doi.org/10.1093/infdis/jiaa663" class="uri">https://doi.org/10.1093/infdis/jiaa663</a>.</p>
 
 
 
