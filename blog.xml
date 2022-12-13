@@ -12,77 +12,7 @@
 <generator>quarto-1.2.269</generator>
 <lastBuildDate>Wed, 18 May 2022 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Work Experience</title>
-  <dc:creator>Yuping Shao</dc:creator>
-  <link>https://yshao.github.io/mysite/posts/current-research/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="woodward" class="level1">
-<h1>Woodward</h1>
-<p>https://www.woodward.com/en/shop/woodward44-gas-metering-and-shutoff</p>
-<p>Right before I moved to Boulder, I had a gig working in the renewable energy initiative in 2008 on energy/gas/oil/wind turbine controllers. I worked on two different projects, Falcon and Eagle. One is for liquid valve controller, the other is for gas. The facility at Fort Collins is both the design center as well as the manucturing plant. The part I remember was it had a giant lathe that is more than 10 feet tall to machine the turbine controller in one piece</p>
-<p>Website</p>
-</section>
-<section id="radiometers-and-beyond" class="level1">
-<h1>Radiometers and beyond</h1>
-<p>Right before I moved to Boston, I wanted to do something about the environment after reading about the pollution in China back in 2012. So I worked at this place that builds miniaturized radiometer, a type of atmospheric sensing instrument, that is 10-15 years ahead of its competitions. The website they run shows the amazing science this place do.</p>
-<p>Website http://www.boulderest.com/</p>
-</section>
-<section id="clinical-data-animation-center---mgh" class="level1">
-<h1>Clinical Data Animation Center - MGH</h1>
-<p>Working at CDAC is such an extraordinary opportunity. Working along side of biomedical analysts, machine learning engineers, clinicians, and clinical researchers, all of whom have data science training made it feasible to collaborate on some cool projects.</p>
-<p>Some of the talks and presentations I’ve made have focused toward covering fields that data scientists otherwise would not be as informed about: topics of system engineering, software engineering, and data engineering.</p>
-<p>My CDAC presentations</p>
-<p>Many of the presentations have been done in conjunction with Manohar Ghanta, another data engineer/scientist currently working on big omics data</p>
-<p>Spark II - Big Data Analytics</p>
-<p>CDAC Workshop 1 - Streaming Timeseries</p>
-<p>CDAC Workshop 2 - Big Data Medical Informatics</p>
-<p>CDAC Workshop 3 - Multi-modal Fuzzy-matching and NLP</p>
-<p>CDAC Workshop 4 - AI Data Engineering</p>
-<p>More recently, I’ve been leading the efforts to make an accurate simulator for clinical policy, it involves working with the clinical decision support operational group at MGH</p>
-<p>Digital Health part 1</p>
-<p>I work at Mass General Hospital Neurology Department in a clinical data analytics group (CDAC - clinical data animation center) with PI neurologist Dr.&nbsp;Brandon Westover where neurophysiology/computational neuroscience/clinical science intersect. Working at CDAC gave me the opportunity to interact with physicians, postdocs, and biomedical analysts with specialized knowledge of the dynamical system of the human brain physiology. To find machine learning/deep learning models that work well, it involves curation of data to get concept representations learned from clinical data, forming a database of metadata. This compositional data concept system can be harnessed to build machine learning algorithm for many detection and prediction of degenerative states of the brain physiology and medical informatics.</p>
-<p>My typical projects involve wrangling multimodal data source ranging from waveforms like EEG/EKG, clinical timeseries like labs/vitals, sequentially updated physician notes, and prepare them into research ready data through data cleaning, interrogating data statistics, rule-based label harvesting, data pattern classification with models, and discovering data correlation through predictive modeling and data exploration.</p>
-<p>Projects I have been involved include but not limited to: Prediction of onset of sepsis with streaming electronics health records. Large scale visualization of spatio-temporal patterns from seizure burden data. Delirium predictive analytics on electronics health records. Big analytics on EEG processing. * Automated Surveillance for Ventilator Associated Events.</p>
-<p>EEG Report to Recordings Matching and Text Mining https://education.dellemc.com/content/dam/dell-emc/documents/en-us/2018KS_Tony-EEG_Report_to_Recordings_Matching_and_Text_Mining.pdf</p>
-<p>Large Scale tSNE Map</p>
-<p>Working at MGH is such an extraordinary opportunity. The CDAC group has what would be the largest database of EEG showing interesting seizure patterns. A book that was published based on this work is now on Amazon Book</p>
-<p>The earliest attempt to curate 100 patients was pretty challenging, since there’s a lot of data variabilities. Data reduction and dimensional reduction techniques were needed to just get to the clustering stage for unsupervised learning.</p>
-<p>Visualization 1</p>
-<p>The 2nd stage became a semi-supervised learning project with improved approaches to curate data. Still, data volume made the project hard. In the second, the features seem to have been over-engineered and constrained. The parametric approach is fundamentally an inference and hard to get right</p>
-<p>Visualization 2</p>
-<p>Sepsis-onset Detection 25 november 2018 time-sensitive detection for near-time application</p>
-<p>Predictive algorithm becomes policy relevant what it’s also predicting the onset, not just the category. This makes it relevant for interventional study.</p>
-<p>This collaboration investigates the deployment of sepsis onset detection within ICU. Sepsis is a common precursor to neurological disorders. The early detection of its onset could provide opportunity for intervention within ICU healthcare.</p>
-<p>To train the deep learning algorithm for the detection, I prepared a cohort of 7800 patients found within ICU with sepsis condition as determined by the Sepsis-III definition (published by CDC). Then working with the clinical informatics group at Emory to develop a model that predicts the onset of sepsis.</p>
-<p>The project introduces the importance of temporal context. For example, antibiotics medications are frequently given to patients within ICU, however, if antibiotics are given with certain number of times over 3 days when followed by microbiology culture test, then the medication was for sepsis treatment.</p>
-<p>GeorgiaTech Work</p>
-<p>file://///ethan/newshare/GoogleDrive/website/Interactive%20Intelligence.mp4</p>
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shao2022,
-  author = {Yuping Shao},
-  title = {Work {Experience}},
-  date = {2022-05-18},
-  url = {https://yshao.github.io/mysite//posts/current-research},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shao2022" class="csl-entry quarto-appendix-citeas">
-Yuping Shao. 2022. <span>“Work Experience.”</span> May 18, 2022. <a href="https://yshao.github.io/mysite//posts/current-research">https://yshao.github.io/mysite//posts/current-research</a>.
-</div></div></section></div> ]]></description>
-  <category>data science</category>
-  <category>misc</category>
-  <guid>https://yshao.github.io/mysite/posts/current-research/index.html</guid>
-  <pubDate>Wed, 18 May 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://yshao.github.io/mysite/posts/quarto-website/tobias-meme.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Undergraduate</title>
+  <title>Graduate (Master)</title>
   <dc:creator>Yuping Shao</dc:creator>
   <link>https://yshao.github.io/mysite/posts/graduate/index.html</link>
   <description><![CDATA[ 
@@ -92,39 +22,30 @@ Yuping Shao. 2022. <span>“Work Experience.”</span> May 18, 2022. <a href="ht
 
 <section id="prelude" class="level1">
 <h1>Prelude</h1>
-<p>Nanotech, Optics and Robotics</p>
-<p>In my undergraduate, I was interested in everything nano, optical, abstract invariant principles of the physical world. The “goal project” was creating self-assemblying nano-fabricators. The possibilities at creating a abundance society appealed to me.</p>
-<p>I had the fortune to work with a nobel prize winner in nanometerials, Shuji Nakamura, the inventor of blue LED, that summer was both fun and informative, as I found out how “wet” work is conducted in a fab room. I learned about van de pauw method of Hall effect measurement and a bit of crystal lattice structure.</p>
-<p>Paper https://www.nnin.org/sites/default/files/files/2005NNINreuShao.pdf</p>
-<p>For my undergraduate design project. I invented a innovative apparatus and electrochemistry process to create material for the characterization of laser beam profile with high purity silver. (95% and above, grade above sterling silver, which is at ~93%)</p>
-<p>Paper https://projects-web.engr.colostate.edu/ece-sr-design/AY06_07/erc_nano/YSHAO_senior_design.pdf</p>
-<p>The silver helical target became part of the patent description in a laser characterization apparatus</p>
-<p>Link https://patents.justia.com/patent/7609816</p>
-<p>I was also a mentor in FIRST Robotics for Team 159 at Poudre High School. I was also a former participant in the robotics competition</p>
-<p>It’s one of the formative influences that led to study engineering. We won the Chairman’s Award for profileration of STEM for the state of Colorado and was one of the early teams that made the presence significant for the FIRST committee to form the Colorado Regional.</p>
-<p>I’ve learned most about robotics here. The open-source hardware movement later made it cool to use arduino and rasp-pi.</p>
-<p>FIRST https://www.firstinspires.org/robotics/frc</p>
-<p>On team 159, I did robot and motor controls, electronics and was the original webmaster. I learned also machine shop related skills with metal and plastic. The new website is much more organized today!</p>
-<p>Team 159 https://alpinerobotics.org/</p>
+<section id="georgiatech-work-in-a-5-minutes-video" class="level2">
+<h2 class="anchored" data-anchor-id="georgiatech-work-in-a-5-minutes-video">GeorgiaTech Work in a 5 minutes video</h2>
+<p>I received my training in computer science through Georgia Tech while a employed as a full-time embedded system designer and software engineer at Boulder Environment Sciences and Tech (BEST). The topics of health informatics and big data in healthcare would later brought me together with the researchers in neurology at MGH.</p>
+<p>This video clip was prepared as part of phd application demo.</p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://drive.google.com/file/d/15bq3rSjzFAH69RkQe0_An6muuSnkCzPw/edit"></video></div>
 
 
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shao2022,
   author = {Yuping Shao},
-  title = {Undergraduate},
+  title = {Graduate {(Master)}},
   date = {2022-05-18},
   url = {https://yshao.github.io/mysite//posts/graduate},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shao2022" class="csl-entry quarto-appendix-citeas">
-Yuping Shao. 2022. <span>“Undergraduate.”</span> May 18, 2022. <a href="https://yshao.github.io/mysite//posts/graduate">https://yshao.github.io/mysite//posts/graduate</a>.
+Yuping Shao. 2022. <span>“Graduate (Master).”</span> May 18, 2022. <a href="https://yshao.github.io/mysite//posts/graduate">https://yshao.github.io/mysite//posts/graduate</a>.
 </div></div></section></div> ]]></description>
   <category>data science</category>
   <category>misc</category>
   <guid>https://yshao.github.io/mysite/posts/graduate/index.html</guid>
   <pubDate>Wed, 18 May 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://yshao.github.io/mysite/posts/quarto-website/tobias-meme.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Undergraduate</title>
@@ -140,17 +61,17 @@ Yuping Shao. 2022. <span>“Undergraduate.”</span> May 18, 2022. <a href="http
 <p>Nanotech, Optics and Robotics</p>
 <p>In my undergraduate, I was interested in everything nano, optical, abstract invariant principles of the physical world. The “goal project” was creating self-assemblying nano-fabricators. The possibilities at creating a abundance society appealed to me.</p>
 <p>I had the fortune to work with a nobel prize winner in nanometerials, Shuji Nakamura, the inventor of blue LED, that summer was both fun and informative, as I found out how “wet” work is conducted in a fab room. I learned about van de pauw method of Hall effect measurement and a bit of crystal lattice structure.</p>
-<p>Paper https://www.nnin.org/sites/default/files/files/2005NNINreuShao.pdf</p>
+<p><a href="https://www.nnin.org/sites/default/files/files/2005NNINreuShao.pdf">Paper</a></p>
 <p>For my undergraduate design project. I invented a innovative apparatus and electrochemistry process to create material for the characterization of laser beam profile with high purity silver. (95% and above, grade above sterling silver, which is at ~93%)</p>
-<p>Paper https://projects-web.engr.colostate.edu/ece-sr-design/AY06_07/erc_nano/YSHAO_senior_design.pdf</p>
+<p><a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY06_07/erc_nano/YSHAO_senior_design.pdf">Paper</a></p>
 <p>The silver helical target became part of the patent description in a laser characterization apparatus</p>
-<p>Link https://patents.justia.com/patent/7609816</p>
+<p><a href="https://patents.justia.com/patent/7609816">Link</a></p>
 <p>I was also a mentor in FIRST Robotics for Team 159 at Poudre High School. I was also a former participant in the robotics competition</p>
 <p>It’s one of the formative influences that led to study engineering. We won the Chairman’s Award for profileration of STEM for the state of Colorado and was one of the early teams that made the presence significant for the FIRST committee to form the Colorado Regional.</p>
 <p>I’ve learned most about robotics here. The open-source hardware movement later made it cool to use arduino and rasp-pi.</p>
-<p>FIRST https://www.firstinspires.org/robotics/frc</p>
+<p><a href="https://www.firstinspires.org/robotics/frc">FIRST Website</a></p>
 <p>On team 159, I did robot and motor controls, electronics and was the original webmaster. I learned also machine shop related skills with metal and plastic. The new website is much more organized today!</p>
-<p>Team 159 https://alpinerobotics.org/</p>
+<p><a href="https://alpinerobotics.org/">Team 159 Website</a></p>
 
 
 </section>
@@ -169,7 +90,6 @@ Yuping Shao. 2022. <span>“Undergraduate.”</span> May 18, 2022. <a href="http
   <category>misc</category>
   <guid>https://yshao.github.io/mysite/posts/undergraduate/index.html</guid>
   <pubDate>Wed, 18 May 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://yshao.github.io/mysite/posts/quarto-website/tobias-meme.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Work Experience</title>
@@ -182,47 +102,41 @@ Yuping Shao. 2022. <span>“Undergraduate.”</span> May 18, 2022. <a href="http
 
 <section id="woodward" class="level1">
 <h1>Woodward</h1>
-<p>https://www.woodward.com/en/shop/woodward44-gas-metering-and-shutoff</p>
 <p>Right before I moved to Boulder, I had a gig working in the renewable energy initiative in 2008 on energy/gas/oil/wind turbine controllers. I worked on two different projects, Falcon and Eagle. One is for liquid valve controller, the other is for gas. The facility at Fort Collins is both the design center as well as the manucturing plant. The part I remember was it had a giant lathe that is more than 10 feet tall to machine the turbine controller in one piece</p>
-<p>Website</p>
+<p><a href="https://www.woodward.com/en/shop/woodward44-gas-metering-and-shutoff">Website</a></p>
+</section>
+<section id="spectra-logic" class="level1">
+<h1>Spectra Logic</h1>
 </section>
 <section id="radiometers-and-beyond" class="level1">
 <h1>Radiometers and beyond</h1>
 <p>Right before I moved to Boston, I wanted to do something about the environment after reading about the pollution in China back in 2012. So I worked at this place that builds miniaturized radiometer, a type of atmospheric sensing instrument, that is 10-15 years ahead of its competitions. The website they run shows the amazing science this place do.</p>
-<p>Website http://www.boulderest.com/</p>
+<p><a href="http://www.boulderest.com/">Website</a></p>
 </section>
 <section id="clinical-data-animation-center---mgh" class="level1">
 <h1>Clinical Data Animation Center - MGH</h1>
-<p>Working at CDAC is such an extraordinary opportunity. Working along side of biomedical analysts, machine learning engineers, clinicians, and clinical researchers, all of whom have data science training made it feasible to collaborate on some cool projects.</p>
-<p>Some of the talks and presentations I’ve made have focused toward covering fields that data scientists otherwise would not be as informed about: topics of system engineering, software engineering, and data engineering.</p>
-<p>My CDAC presentations</p>
-<p>Many of the presentations have been done in conjunction with Manohar Ghanta, another data engineer/scientist currently working on big omics data</p>
-<p>Spark II - Big Data Analytics</p>
-<p>CDAC Workshop 1 - Streaming Timeseries</p>
-<p>CDAC Workshop 2 - Big Data Medical Informatics</p>
-<p>CDAC Workshop 3 - Multi-modal Fuzzy-matching and NLP</p>
-<p>CDAC Workshop 4 - AI Data Engineering</p>
-<p>More recently, I’ve been leading the efforts to make an accurate simulator for clinical policy, it involves working with the clinical decision support operational group at MGH</p>
-<p>Digital Health part 1</p>
 <p>I work at Mass General Hospital Neurology Department in a clinical data analytics group (CDAC - clinical data animation center) with PI neurologist Dr.&nbsp;Brandon Westover where neurophysiology/computational neuroscience/clinical science intersect. Working at CDAC gave me the opportunity to interact with physicians, postdocs, and biomedical analysts with specialized knowledge of the dynamical system of the human brain physiology. To find machine learning/deep learning models that work well, it involves curation of data to get concept representations learned from clinical data, forming a database of metadata. This compositional data concept system can be harnessed to build machine learning algorithm for many detection and prediction of degenerative states of the brain physiology and medical informatics.</p>
 <p>My typical projects involve wrangling multimodal data source ranging from waveforms like EEG/EKG, clinical timeseries like labs/vitals, sequentially updated physician notes, and prepare them into research ready data through data cleaning, interrogating data statistics, rule-based label harvesting, data pattern classification with models, and discovering data correlation through predictive modeling and data exploration.</p>
 <p>Projects I have been involved include but not limited to: Prediction of onset of sepsis with streaming electronics health records. Large scale visualization of spatio-temporal patterns from seizure burden data. Delirium predictive analytics on electronics health records. Big analytics on EEG processing. * Automated Surveillance for Ventilator Associated Events.</p>
 <p>EEG Report to Recordings Matching and Text Mining https://education.dellemc.com/content/dam/dell-emc/documents/en-us/2018KS_Tony-EEG_Report_to_Recordings_Matching_and_Text_Mining.pdf</p>
-<p>Large Scale tSNE Map</p>
+<section id="large-scale-tsne-map" class="level2">
+<h2 class="anchored" data-anchor-id="large-scale-tsne-map">Large Scale tSNE Map</h2>
 <p>Working at MGH is such an extraordinary opportunity. The CDAC group has what would be the largest database of EEG showing interesting seizure patterns. A book that was published based on this work is now on Amazon Book</p>
 <p>The earliest attempt to curate 100 patients was pretty challenging, since there’s a lot of data variabilities. Data reduction and dimensional reduction techniques were needed to just get to the clustering stage for unsupervised learning.</p>
 <p>Visualization 1</p>
 <p>The 2nd stage became a semi-supervised learning project with improved approaches to curate data. Still, data volume made the project hard. In the second, the features seem to have been over-engineered and constrained. The parametric approach is fundamentally an inference and hard to get right</p>
 <p>Visualization 2</p>
-<p>Sepsis-onset Detection 25 november 2018 time-sensitive detection for near-time application</p>
+</section>
+<section id="sepsis-onset-detection" class="level2">
+<h2 class="anchored" data-anchor-id="sepsis-onset-detection">Sepsis-onset Detection</h2>
+<p>time-sensitive detection for near-time application</p>
 <p>Predictive algorithm becomes policy relevant what it’s also predicting the onset, not just the category. This makes it relevant for interventional study.</p>
 <p>This collaboration investigates the deployment of sepsis onset detection within ICU. Sepsis is a common precursor to neurological disorders. The early detection of its onset could provide opportunity for intervention within ICU healthcare.</p>
 <p>To train the deep learning algorithm for the detection, I prepared a cohort of 7800 patients found within ICU with sepsis condition as determined by the Sepsis-III definition (published by CDC). Then working with the clinical informatics group at Emory to develop a model that predicts the onset of sepsis.</p>
 <p>The project introduces the importance of temporal context. For example, antibiotics medications are frequently given to patients within ICU, however, if antibiotics are given with certain number of times over 3 days when followed by microbiology culture test, then the medication was for sepsis treatment.</p>
-<p>GeorgiaTech Work</p>
-<p>file://///ethan/newshare/GoogleDrive/website/Interactive%20Intelligence.mp4</p>
 
 
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shao2022,
@@ -239,7 +153,6 @@ Yuping Shao. 2022. <span>“Work Experience.”</span> May 18, 2022. <a href="ht
   <category>misc</category>
   <guid>https://yshao.github.io/mysite/posts/work-experience/index.html</guid>
   <pubDate>Wed, 18 May 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://yshao.github.io/mysite/posts/quarto-website/tobias-meme.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

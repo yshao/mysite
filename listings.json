@@ -2,7 +2,6 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/current-research/index.html",
       "/posts/graduate/index.html",
       "/posts/undergraduate/index.html",
       "/posts/work-experience/index.html"
@@ -11,7 +10,6 @@
   {
     "listing": "/reswork.html",
     "items": [
-      "/posts/current-research/index.html",
       "/posts/graduate/index.html",
       "/posts/undergraduate/index.html",
       "/posts/work-experience/index.html"
