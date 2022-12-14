@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/current-research/index.html",
       "/posts/graduate/index.html",
       "/posts/neuroscience/index.html",
       "/posts/undergraduate/index.html",
@@ -11,6 +12,7 @@
   {
     "listing": "/reswork.html",
     "items": [
+      "/posts/current-research/index.html",
       "/posts/graduate/index.html",
       "/posts/neuroscience/index.html",
       "/posts/undergraduate/index.html",

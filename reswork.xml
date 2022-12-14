@@ -12,6 +12,44 @@
 <generator>quarto-1.2.269</generator>
 <lastBuildDate>Wed, 18 May 2022 04:00:00 GMT</lastBuildDate>
 <item>
+  <title>VISLab - Current Research</title>
+  <dc:creator>Yuping Shao</dc:creator>
+  <link>https://yshao.github.io/mysite/posts/current-research/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="how-i-come-to-pointcloud-registration" class="level1">
+<h1>How I come to pointcloud registration</h1>
+<p>I’ve been working for many years, on a disciplined procedure for integrative merging between biomedical data and deep learning. To address this, I’ve been working with my advisor @ WPI to solve the fundamental problems that exist in multimodal dataset.</p>
+<p>Since data preprocessing and analysis could take up 85% of the time, we find this an area of opportunity for practical optimization. For heterogeneous, multi-modal data, this challenging and time-consuming task shares the fundamental problem in registration. A common and similar use-case is the navigation of autonomous vehicles, from which multi-modal datasets are plentiful and far less sparse and hence spurred much progress in computer vision methods for multi-modal data.</p>
+<p>Pointcloud is an N-dimensional dataset to perform research in multi-variate and multi-dimensional optimization. The bulk of my research is optimization methods on the registration problem - concretely, to improve upon the non-convexity of corresponding low dimensions, ie. the observational views of data. Since registration is a fundamental problem, it will show improvement on any downstream problem with any dataset, ie. domain adaptation, score ranking, tracking, etc.</p>
+<p>Therefore, I’m highly motivated to practical medical applications that could bring to data science the rigor of human reasoning and knowledge from the brain science/health science space.</p>
+</section>
+<section id="section" class="level1">
+<h1></h1>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shao2022,
+  author = {Yuping Shao},
+  title = {VISLab - {Current} {Research}},
+  date = {2022-05-18},
+  url = {https://yshao.github.io/mysite//posts/current-research},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shao2022" class="csl-entry quarto-appendix-citeas">
+Yuping Shao. 2022. <span>“VISLab - Current Research.”</span> May 18,
+2022. <a href="https://yshao.github.io/mysite//posts/current-research">https://yshao.github.io/mysite//posts/current-research</a>.
+</div></div></section></div> ]]></description>
+  <category>data science</category>
+  <category>misc</category>
+  <guid>https://yshao.github.io/mysite/posts/current-research/index.html</guid>
+  <pubDate>Wed, 18 May 2022 04:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Graduate (Master)</title>
   <dc:creator>Yuping Shao</dc:creator>
   <link>https://yshao.github.io/mysite/posts/graduate/index.html</link>
@@ -20,19 +58,12 @@
 
 
 
-<section id="prelude" class="level1">
-<h1>Prelude</h1>
-<section id="georgiatech-work-in-a-5-minutes-video" class="level2">
-<h2 class="anchored" data-anchor-id="georgiatech-work-in-a-5-minutes-video">GeorgiaTech Work in a 5 minutes video</h2>
-<p>I received my training in computer science through Georgia Tech while a employed as a full-time embedded system designer and software engineer at Boulder Environment Sciences and Tech (BEST). The topics of health informatics and big data in healthcare would later brought me together with the researchers in neurology at MGH.</p>
-<p>This video clip was prepared as part of phd application demo.</p>
-</section>
-<section id="slide-title" class="level2">
-<h2 class="anchored" data-anchor-id="slide-title">Slide Title</h2>
-<p><a href="https://drive.google.com/file/d/15bq3rSjzFAH69RkQe0_An6muuSnkCzPw/edit">Video</a></p>
+<section id="georgiatech-work-in-a-5-minutes-video" class="level1">
+<h1>GeorgiaTech Work in a 5 minutes video</h1>
+<p>I received my training in computer science through Georgia Tech while employed as a full-time embedded system designer and software engineer at Boulder Environment Sciences and Tech (BEST). The topics of health informatics and big data in healthcare would later bring me together with the researchers in neurology at MGH.</p>
+<p>This video clip was prepared as part of PhD application demo. <a href="https://drive.google.com/file/d/15bq3rSjzFAH69RkQe0_An6muuSnkCzPw/edit">Video</a></p>
 
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shao2022,
@@ -51,7 +82,7 @@ Yuping Shao. 2022. <span>“Graduate (Master).”</span> May 18, 2022. <a href="
   <pubDate>Wed, 18 May 2022 04:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Neuroscience</title>
+  <title>Neuroscience/Biomedical</title>
   <dc:creator>Yuping Shao</dc:creator>
   <link>https://yshao.github.io/mysite/posts/neuroscience/index.html</link>
   <description><![CDATA[ 
@@ -61,28 +92,44 @@ Yuping Shao. 2022. <span>“Graduate (Master).”</span> May 18, 2022. <a href="
 
 <section id="algonauts-2021" class="level1">
 <h1>Algonauts 2021</h1>
-<p>Due to my tangential exposure to neuroscience during my work at neuro critical care and neuro-immunity. The summer after I started my PhD in Spring 2021, I was consecutively a student in the Neuromatch Academy computational neuroscience track, and then also a mentor in my home institution data science/neuroscience research experience for undergraduates (REU). I skipped the consecutive Neuromatch Academy deep learning track cause a brain can only handle so much!</p>
-<p>The team I was a mentor of did a topic to build correspondence between what the eyes see and what the brain sense, which itself is based on the Algonauts 2021 challenge.</p>
+<p>Due to my tangential exposure to neuroscience during my work at neuro critical care and infectious disease control. The summer after I started my PhD in Spring 2021, I was consecutively a student in the Neuromatch Academy computational neuroscience track, and then also a mentor in my home institution data science/neuroscience research experience for undergraduates (REU). I skipped the consecutive Neuromatch Academy deep learning track cause a brain can only handle so much!</p>
+<p>The team I was a mentor of researched a topic on building correspondence between what the eyes see and what the brain sense, which itself is based on the Algonauts 2021 challenge. The overall ambitious goal was to link between multi-modal dataset.</p>
 <p><a href="http://algonauts.csail.mit.edu/challenge.html">Website</a></p>
-<p>They won the poster award at Undergraduate Research Technology Conference (URTC 2021)! What a great experience overwall.</p>
+<p>They won the poster award at Undergraduate Research Technology Conference (URTC 2021)! It was a great experience overall. I believe at least one of the students would go into Ph.D.&nbsp;program herself.</p>
 <p><a href="https://urtc.mit.edu/">Website</a></p>
 </section>
 <section id="neuromatch-2021" class="level1">
 <h1>Neuromatch 2021</h1>
 <p>For my own computational track. I based my fMRI analysis on the Human Connetomic Project.</p>
+<p>This is a sample preliminary concept of an application. The work was done in collaboration with my neuromatch cohort that include researchers from Univ Virginia - A, WashU@St. Louis, MIT, Univ in Mexico City.</p>
+</section>
+<section id="wpi" class="level1">
+<h1>@ WPI</h1>
+<section id="ultrasound-imaging-and-other-modality-imaging." class="level2">
+<h2 class="anchored" data-anchor-id="ultrasound-imaging-and-other-modality-imaging.">Ultrasound Imaging and other modality imaging.</h2>
+<p>Since I started at WPI at the peak of COVID in 2021. A lab specialized in photoacoustic medicine was interested in ultrasound based scan.</p>
+<p>The class resulted in a imaging report using concept of co-segmention. I collaborated with fellow Ph.D.&nbsp;students from Robotics Engineering and Electrical Computer Engineering.</p>
+<p><a href="https://drive.google.com/file/d/1xt-ak_X6XyyZ5AQFsjA8USIUW_u8jsz4/view">Report</a></p>
+</section>
+<section id="multimodal-brain-computer-interface." class="level2">
+<h2 class="anchored" data-anchor-id="multimodal-brain-computer-interface.">Multimodal brain computer interface.</h2>
+<p>The class is a seminar on brain computer interfaces, and included concepts from early development, clinical usage like stroke, human computer interfaces AR/VR, and other biosignals.</p>
+<p>I researched in the interface to sense potential factors contribute to thresholds of good judgment. <a href="https://drive.google.com/file/d/1xt-ak_X6XyyZ5AQFsjA8USIUW_u8jsz4/view">Report</a></p>
 
 
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shao2022,
   author = {Yuping Shao},
-  title = {Neuroscience},
+  title = {Neuroscience/Biomedical},
   date = {2022-05-18},
   url = {https://yshao.github.io/mysite//posts/neuroscience},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shao2022" class="csl-entry quarto-appendix-citeas">
-Yuping Shao. 2022. <span>“Neuroscience.”</span> May 18, 2022. <a href="https://yshao.github.io/mysite//posts/neuroscience">https://yshao.github.io/mysite//posts/neuroscience</a>.
+Yuping Shao. 2022. <span>“Neuroscience/Biomedical.”</span> May 18, 2022.
+<a href="https://yshao.github.io/mysite//posts/neuroscience">https://yshao.github.io/mysite//posts/neuroscience</a>.
 </div></div></section></div> ]]></description>
   <category>data science</category>
   <category>misc</category>
@@ -98,9 +145,8 @@ Yuping Shao. 2022. <span>“Neuroscience.”</span> May 18, 2022. <a href="https
 
 
 
-<section id="prelude" class="level1">
-<h1>Prelude</h1>
-<p>Nanotech, Optics and Robotics</p>
+<section id="nanotech-optics-and-robotics" class="level1">
+<h1>Nanotech, Optics and Robotics</h1>
 <p>In my undergraduate, I was interested in everything nano, optical, abstract invariant principles of the physical world. The “goal project” was creating self-assemblying nano-fabricators. The possibilities at creating a abundance society appealed to me.</p>
 <p>I had the fortune to work with a nobel prize winner in nanometerials, Shuji Nakamura, the inventor of blue LED, that summer was both fun and informative, as I found out how “wet” work is conducted in a fab room. I learned about van de pauw method of Hall effect measurement and a bit of crystal lattice structure.</p>
 <p><a href="https://www.nnin.org/sites/default/files/files/2005NNINreuShao.pdf">Paper</a></p>
