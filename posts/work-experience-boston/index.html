@@ -8,9 +8,9 @@
 
 <meta name="author" content="Yuping Shao">
 <meta name="dcterms.date" content="2022-05-18">
-<meta name="description" content="Neuroscience and imaging-related activities since PhD.">
+<meta name="description" content="My work experience prior to PhD.">
 
-<title>Yuping Shao - Neuroscience/Biomedical</title>
+<title>Yuping Shao - Work Experience in Massachusetts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,10 +110,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Neuroscience/Biomedical</h1>
+      <h1 class="title">Work Experience in Massachusetts</h1>
                   <div>
         <div class="description">
-          <p>Neuroscience and imaging-related activities since PhD.</p>
+          <p>My work experience prior to PhD.</p>
         </div>
       </div>
                           <div class="quarto-categories">
@@ -161,12 +161,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#algonauts-2021" id="toc-algonauts-2021" class="nav-link active" data-scroll-target="#algonauts-2021">Algonauts 2021</a></li>
-  <li><a href="#neuromatch-2021" id="toc-neuromatch-2021" class="nav-link" data-scroll-target="#neuromatch-2021">Neuromatch 2021</a></li>
-  <li><a href="#wpi" id="toc-wpi" class="nav-link" data-scroll-target="#wpi">@ WPI</a>
+  <li><a href="#clinical-data-animation-center---mgh" id="toc-clinical-data-animation-center---mgh" class="nav-link active" data-scroll-target="#clinical-data-animation-center---mgh">Clinical Data Animation Center - MGH</a>
   <ul>
-  <li><a href="#ultrasound-imaging-and-other-modality-imaging." id="toc-ultrasound-imaging-and-other-modality-imaging." class="nav-link" data-scroll-target="#ultrasound-imaging-and-other-modality-imaging.">Ultrasound Imaging and other modality imaging.</a></li>
-  <li><a href="#multimodal-brain-computer-interface." id="toc-multimodal-brain-computer-interface." class="nav-link" data-scroll-target="#multimodal-brain-computer-interface.">Multimodal brain computer interface.</a></li>
+  <li><a href="#large-scale-tsne-map" id="toc-large-scale-tsne-map" class="nav-link" data-scroll-target="#large-scale-tsne-map">Large Scale tSNE Map</a></li>
+  <li><a href="#sepsis-onset-detection" id="toc-sepsis-onset-detection" class="nav-link" data-scroll-target="#sepsis-onset-detection">Sepsis-onset Detection</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -177,30 +175,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="algonauts-2021" class="level1">
-<h1>Algonauts 2021</h1>
-<p>Due to my tangential exposure to neuroscience during my work at neuro critical care and infectious disease control. The summer after I started my PhD in Spring 2021, I was consecutively a student in the Neuromatch Academy computational neuroscience track, and then also a mentor in my home institution data science/neuroscience research experience for undergraduates (REU). I skipped the consecutive Neuromatch Academy deep learning track cause a brain can only handle so much!</p>
-<p>The team I was a mentor of researched a topic on building correspondence between what the eyes see and what the brain sense, which itself is based on the Algonauts 2021 challenge. The overall ambitious goal was to link between multi-modal dataset.</p>
-<p><a href="http://algonauts.csail.mit.edu/challenge.html">Website</a></p>
-<p>They won the poster award at Undergraduate Research Technology Conference (URTC 2021)! It was a great experience overall. I believe at least one of the students would go into Ph.D.&nbsp;program herself.</p>
-<p><a href="https://urtc.mit.edu/">Website</a></p>
+<section id="clinical-data-animation-center---mgh" class="level1">
+<h1>Clinical Data Animation Center - MGH</h1>
+<p>I work at Mass General Hospital Neurology Department in a clinical data analytics group (CDAC - clinical data animation center) with PI neurologist Dr.&nbsp;Brandon Westover where neurophysiology/computational neuroscience/clinical science intersect. Working at CDAC gave me the opportunity to interact with physicians, postdocs, and biomedical analysts with specialized knowledge of the dynamical system of human brain physiology. Find machine learning/deep learning models that work well, it involves the curation of data to get concept representations learned from clinical data, forming a database of metadata. This compositional data concept system can be harnessed to build machine learning algorithms for many detection and prediction of degenerative states of the brain physiology and medical informatics. My typical projects involve wrangling multimodal data source ranging from waveforms like EEG/EKG, clinical timeseries like labs/vitals, sequentially updated physician notes, and preparing them into research-ready data through data cleaning, interrogating data statistics, rule-based label harvesting, data pattern classification with models, and discovering data correlation through predictive modeling and data exploration. Projects I have been involved in include but are not limited to - Prediction of the onset of sepsis with streaming electronic health records. - Large-scale visualization of Spatio-temporal patterns from seizure burden data. - Delirium predictive analytics on electronic health records. - Big data analytics on EEG processing. - Automated Surveillance for Ventilator-Associated Events.</p>
+<p>Professional data science competition include this one <a href="https://education.dellemc.com/content/dam/dell-emc/documents/en-us/2018KS_Tony-EEG_Report_to_Recordings_Matching_and_Text_Mining.pdf">EEG Report to Recordings Matching and Text Mining</a></p>
+<section id="large-scale-tsne-map" class="level2">
+<h2 class="anchored" data-anchor-id="large-scale-tsne-map">Large Scale tSNE Map</h2>
+<p>Working at MGH is such an extraordinary opportunity. The CDAC group has what would be the largest database of EEG showing interesting seizure patterns. A book that was published based on this work is now on Amazon Book</p>
+<p>The earliest attempt to curate 100 patients was pretty challenging, since there’s a lot of data variabilities. Data reduction and dimensional reduction techniques were needed to just get to the clustering stage for unsupervised learning.</p>
+<p>The 2nd stage became a semi-supervised learning project with improved approaches to curate data. Still, data volume made the project hard. In the second, the features seem to have been over-engineered and constrained. The parametric approach is learned network inference and hard to get right since the map is keep changing on a large-scale.</p>
+<p><a href="https://cdac.mgh.harvard.edu/">Website</a></p>
 </section>
-<section id="neuromatch-2021" class="level1">
-<h1>Neuromatch 2021</h1>
-<p>For my own computational track. I based my fMRI analysis on the Human Connectome Project (HPC). The work was done in collaboration with my neuromatch cohort that include researchers from Univ Virginia - A, WashU@St. Louis, MIT, Univ in Mexico City. This is a sample preliminary concept of an application. Research questions: “can we predict participants’ accuracy on the social animacy task from between and within network connectivity? can the prediction model improve its performance when resting-state-fMRI data is included?”</p>
-</section>
-<section id="wpi" class="level1">
-<h1>@ WPI</h1>
-<section id="ultrasound-imaging-and-other-modality-imaging." class="level2">
-<h2 class="anchored" data-anchor-id="ultrasound-imaging-and-other-modality-imaging.">Ultrasound Imaging and other modality imaging.</h2>
-<p>Since I started at WPI at the peak of COVID in 2021. A lab specialized in photoacoustic medicine was interested in ultrasound based scan.</p>
-<p>The class resulted in a imaging report using concept of co-segmention. I collaborated with fellow Ph.D.&nbsp;students from Robotics Engineering and Electrical Computer Engineering.</p>
-<p><a href="https://drive.google.com/file/d/1xt-ak_X6XyyZ5AQFsjA8USIUW_u8jsz4/view">Report</a></p>
-</section>
-<section id="multimodal-brain-computer-interface." class="level2">
-<h2 class="anchored" data-anchor-id="multimodal-brain-computer-interface.">Multimodal brain computer interface.</h2>
-<p>The class is a seminar on brain computer interfaces, and included concepts from early development, clinical usage like stroke, human computer interfaces AR/VR, and other biosignals.</p>
-<p>I researched in the interface to sense potential factors contribute to thresholds of good judgment. <a href="https://drive.google.com/file/d/1xt-ak_X6XyyZ5AQFsjA8USIUW_u8jsz4/view">Report</a></p>
+<section id="sepsis-onset-detection" class="level2">
+<h2 class="anchored" data-anchor-id="sepsis-onset-detection">Sepsis-onset Detection</h2>
+<p>time-sensitive detection for near-time application</p>
+<p>Predictive algorithm becomes policy relevant what it’s also predicting the onset, not just the category. This makes it relevant for interventional study.</p>
+<p>This collaboration investigates the deployment of sepsis onset detection within ICU. Sepsis is a common precursor to neurological disorders. The early detection of its onset could provide opportunity for intervention within ICU healthcare.</p>
+<p>To train the deep learning algorithm for the detection, I prepared a cohort of 7800 patients found within ICU with sepsis condition as determined by the Sepsis-III definition published by the Center for Disease Control (CDC). Then working with the clinical informatics group at Emory to develop a model that predicts the onset of sepsis.</p>
+<p>The project introduces the importance of temporal context. For example, antibiotics medications are frequently given to patients within ICU, however, if antibiotics are given with certain number of times over 3 days when followed by microbiology culture test, then the medication was for sepsis treatment.</p>
+<p><a href="">Website</a></p>
 
 
 </section>
@@ -208,14 +201,14 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shao2022,
   author = {Yuping Shao},
-  title = {Neuroscience/Biomedical},
+  title = {Work {Experience} in {Massachusetts}},
   date = {2022-05-18},
-  url = {https://yshao.github.io/mysite//posts/neuroscience},
+  url = {https://yshao.github.io/mysite//posts/work-experience-boston},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shao2022" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Yuping Shao. 2022. <span>“Neuroscience/Biomedical.”</span> May 18, 2022.
-<a href="https://yshao.github.io/mysite//posts/neuroscience">https://yshao.github.io/mysite//posts/neuroscience</a>.
+Yuping Shao. 2022. <span>“Work Experience in Massachusetts.”</span> May
+18, 2022. <a href="https://yshao.github.io/mysite//posts/work-experience-boston">https://yshao.github.io/mysite//posts/work-experience-boston</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
