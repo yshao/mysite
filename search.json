@@ -11,7 +11,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Graduate (Master)\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy graduate training in computer science while working full-time.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nUndergraduate\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy undergraduate in engineering, volunteer and awards.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nWork Experience\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy work experience prior to PhD.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\nNo matching items"
+    "text": "Graduate (Master)\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy graduate training in computer science while working full-time.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nNeuroscience\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nNeuroscience-related activities since PhD.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nUndergraduate\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy undergraduate in engineering, volunteer and awards.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nWork Experience\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy work experience prior to PhD.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "books.html",
@@ -46,7 +46,7 @@
     "href": "cv_gen.html",
     "title": "Yuping Shao",
     "section": "",
-    "text": "Publications\n\n\n\nC:/Users/yshao/AppData/Local/Temp/Rtmp2vjB8E/file56d8745a26a7.yaml"
+    "text": "Publications\n\n\n\nC:/Users/yshao/AppData/Local/Temp/RtmpeUgPlv/file20882f8e16f0.yaml"
   },
   {
     "objectID": "index.html",
@@ -68,6 +68,13 @@
     "title": "Graduate (Master)",
     "section": "",
     "text": "I received my training in computer science through Georgia Tech while a employed as a full-time embedded system designer and software engineer at Boulder Environment Sciences and Tech (BEST). The topics of health informatics and big data in healthcare would later brought me together with the researchers in neurology at MGH.\nThis video clip was prepared as part of phd application demo.\n\n\n\nVideo"
+  },
+  {
+    "objectID": "posts/neuroscience/index.html",
+    "href": "posts/neuroscience/index.html",
+    "title": "Neuroscience",
+    "section": "",
+    "text": "Algonauts 2021\nDue to my tangential exposure to neuroscience during my work at neuro critical care and neuro-immunity. The summer after I started my PhD in Spring 2021, I was consecutively a student in the Neuromatch Academy computational neuroscience track, and then also a mentor in my home institution data science/neuroscience research experience for undergraduates (REU). I skipped the consecutive Neuromatch Academy deep learning track cause a brain can only handle so much!\nThe team I was a mentor of did a topic to build correspondence between what the eyes see and what the brain sense, which itself is based on the Algonauts 2021 challenge.\nWebsite\nThey won the poster award at Undergraduate Research Technology Conference (URTC 2021)! What a great experience overwall.\nWebsite\n\n\nNeuromatch 2021\nFor my own computational track. I based my fMRI analysis on the Human Connetomic Project.\n\n\n\n\nReusehttps://creativecommons.org/licenses/by/4.0/CitationBibTeX citation:@online{shao2022,\n  author = {Yuping Shao},\n  title = {Neuroscience},\n  date = {2022-05-18},\n  url = {https://yshao.github.io/mysite//posts/neuroscience},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nYuping Shao. 2022. “Neuroscience.” May 18, 2022. https://yshao.github.io/mysite//posts/neuroscience."
   },
   {
     "objectID": "posts/undergraduate/index.html",
@@ -130,7 +137,7 @@
     "href": "reswork.html",
     "title": "Research",
     "section": "",
-    "text": "Graduate (Master)\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy graduate training in computer science while working full-time.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nUndergraduate\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy undergraduate in engineering, volunteer and awards.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nWork Experience\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy work experience prior to PhD.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\nNo matching items"
+    "text": "Graduate (Master)\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy graduate training in computer science while working full-time.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nNeuroscience\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nNeuroscience-related activities since PhD.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nUndergraduate\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy undergraduate in engineering, volunteer and awards.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\n\n\nWork Experience\n\n\n\n\n\n\n\ndata science\n\n\nmisc\n\n\n\n\nMy work experience prior to PhD.\n\n\n\n\n\n\nMay 18, 2022\n\n\nYuping Shao\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "software.html",

@@ -51,6 +51,45 @@ Yuping Shao. 2022. <span>“Graduate (Master).”</span> May 18, 2022. <a href="
   <pubDate>Wed, 18 May 2022 04:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Neuroscience</title>
+  <dc:creator>Yuping Shao</dc:creator>
+  <link>https://yshao.github.io/mysite/posts/neuroscience/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="algonauts-2021" class="level1">
+<h1>Algonauts 2021</h1>
+<p>Due to my tangential exposure to neuroscience during my work at neuro critical care and neuro-immunity. The summer after I started my PhD in Spring 2021, I was consecutively a student in the Neuromatch Academy computational neuroscience track, and then also a mentor in my home institution data science/neuroscience research experience for undergraduates (REU). I skipped the consecutive Neuromatch Academy deep learning track cause a brain can only handle so much!</p>
+<p>The team I was a mentor of did a topic to build correspondence between what the eyes see and what the brain sense, which itself is based on the Algonauts 2021 challenge.</p>
+<p><a href="http://algonauts.csail.mit.edu/challenge.html">Website</a></p>
+<p>They won the poster award at Undergraduate Research Technology Conference (URTC 2021)! What a great experience overwall.</p>
+<p><a href="https://urtc.mit.edu/">Website</a></p>
+</section>
+<section id="neuromatch-2021" class="level1">
+<h1>Neuromatch 2021</h1>
+<p>For my own computational track. I based my fMRI analysis on the Human Connetomic Project.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shao2022,
+  author = {Yuping Shao},
+  title = {Neuroscience},
+  date = {2022-05-18},
+  url = {https://yshao.github.io/mysite//posts/neuroscience},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shao2022" class="csl-entry quarto-appendix-citeas">
+Yuping Shao. 2022. <span>“Neuroscience.”</span> May 18, 2022. <a href="https://yshao.github.io/mysite//posts/neuroscience">https://yshao.github.io/mysite//posts/neuroscience</a>.
+</div></div></section></div> ]]></description>
+  <category>data science</category>
+  <category>misc</category>
+  <guid>https://yshao.github.io/mysite/posts/neuroscience/index.html</guid>
+  <pubDate>Wed, 18 May 2022 04:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Undergraduate</title>
   <dc:creator>Yuping Shao</dc:creator>
   <link>https://yshao.github.io/mysite/posts/undergraduate/index.html</link>
