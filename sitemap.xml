@@ -2,66 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://yshao.github.io/mysite/about.html</loc>
-    <lastmod>2022-12-14T21:30:05.779Z</lastmod>
+    <lastmod>2022-12-15T13:24:03.985Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/blog.html</loc>
-    <lastmod>2022-12-14T21:30:07.139Z</lastmod>
+    <lastmod>2022-12-15T13:24:05.216Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/books.html</loc>
-    <lastmod>2022-12-14T21:30:08.289Z</lastmod>
+    <lastmod>2022-12-15T13:24:05.992Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/cv.html</loc>
-    <lastmod>2022-12-14T21:30:09.618Z</lastmod>
+    <lastmod>2022-12-15T13:24:06.873Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/cv_gen.html</loc>
-    <lastmod>2022-12-14T21:30:18.684Z</lastmod>
+    <lastmod>2022-12-15T13:24:12.655Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/index.html</loc>
-    <lastmod>2022-12-14T21:30:20.010Z</lastmod>
+    <lastmod>2022-12-15T13:24:13.500Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/papers.html</loc>
-    <lastmod>2022-12-14T21:30:21.212Z</lastmod>
+    <lastmod>2022-12-15T13:24:14.206Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yshao.github.io/mysite/posts/current-research/index.html</loc>
+    <lastmod>2022-12-15T13:24:15.385Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/posts/graduate/index.html</loc>
-    <lastmod>2022-12-14T21:30:24.250Z</lastmod>
+    <lastmod>2022-12-15T13:24:16.549Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/posts/neuroscience/index.html</loc>
-    <lastmod>2022-12-14T21:30:25.368Z</lastmod>
+    <lastmod>2022-12-15T13:24:17.422Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/posts/undergraduate/index.html</loc>
-    <lastmod>2022-12-14T21:30:29.328Z</lastmod>
+    <lastmod>2022-12-15T13:24:20.339Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/posts/work-experience/index.html</loc>
-    <lastmod>2022-12-14T21:30:30.349Z</lastmod>
+    <lastmod>2022-12-15T13:24:21.173Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/posts/work-experience-boston/index.html</loc>
-    <lastmod>2022-12-14T21:30:31.579Z</lastmod>
+    <lastmod>2022-12-15T13:24:21.914Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/publications.html</loc>
-    <lastmod>2022-12-14T21:30:32.727Z</lastmod>
+    <lastmod>2022-12-15T13:24:22.701Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/research.html</loc>
-    <lastmod>2022-12-14T21:30:52.191Z</lastmod>
+    <lastmod>2022-12-15T13:24:38.290Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/reswork.html</loc>
-    <lastmod>2022-12-14T21:30:53.523Z</lastmod>
+    <lastmod>2022-12-15T13:24:39.463Z</lastmod>
   </url>
   <url>
     <loc>https://yshao.github.io/mysite/software.html</loc>
-    <lastmod>2022-12-14T21:31:09.735Z</lastmod>
+    <lastmod>2022-12-15T13:24:50.900Z</lastmod>
   </url>
 </urlset>
