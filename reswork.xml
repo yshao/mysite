@@ -27,8 +27,12 @@
 <p>Pointcloud is an N-dimensional dataset to perform research in multi-variate and multi-dimensional optimization. The bulk of my research is optimization methods on the registration problem - concretely, to improve upon the non-convexity of corresponding low dimensions, ie. the observational views of data. Since registration is a fundamental problem, it will show improvement on any downstream problem with any dataset, ie. domain adaptation, score ranking, tracking, etc.</p>
 <p>Therefore, I’m highly motivated to practical medical applications that could bring to data science the rigor of human reasoning and knowledge from the brain science/health science space.</p>
 </section>
-<section id="topics-related-to-registration" class="level1">
-<h1>Topics related to registration</h1>
+<section id="research-topics-relates-to-registration" class="level1">
+<h1>Research topics relates to registration</h1>
+<p>Optimization techniques Sparsity Regularization Deep learning Visual recognition</p>
+</section>
+<section id="application-topics-related-to-registration" class="level1">
+<h1>Application topics related to registration</h1>
 <p>Biomedical imaging Photo-acoustic medicine Ultrasound N-dimensional signals multi-modal signals</p>
 
 
@@ -63,6 +67,43 @@ Yuping Shao. 2022. <span>“VISLab - Current Research.”</span> May 18,
 <h1>GeorgiaTech Work in a 5 minutes video</h1>
 <p>I received my training in computer science through Georgia Tech while employed as a full-time embedded system designer and software engineer at Boulder Environment Sciences and Tech (BEST). The topics of health informatics and big data in healthcare would later bring me together with the researchers in neurology at MGH.</p>
 <p>This video clip was prepared as part of PhD application demo. <a href="https://drive.google.com/file/d/15bq3rSjzFAH69RkQe0_An6muuSnkCzPw/edit">Video</a></p>
+</section>
+<section id="digital-porfolio-in-progress-of-update" class="level1">
+<h1>Digital Porfolio (in progress of update…)</h1>
+</section>
+<section id="big-data-for-healthcare-analytics" class="level1">
+<h1>Big Data for Healthcare Analytics</h1>
+<p>MIMIC3 readmission prediction</p>
+<p>This class introduced many big data analytics method as applied to electronics health records processing. For the final thesis paper, I researched on the topic of readmission to hospital after discharge. I harvested the readmission labels from the MIMIC-3 database and then prepared features from patients’ vitals, labs, and demographics. The readmission label criterion looks for people who came back to hospital within 30 days, essentially discharged while their inpatient health progression would indicate for longer stay. The RNN (recurrent neural network) model with GRU in was built in pytorch, and then again in tensorflow. It achieved an AUROC of 71%. Though being a blackbox, it was not interpretable. From this project, I learned the importance of interpretability to make the model useful for advancing the understanding of healthcare science.</p>
+<p><a href="https://drive.google.com/file/d/1T1iScfGKjeD0UIlGQAVlkLCwoK87f8rX/view">Report</a></p>
+</section>
+<section id="computational-photography" class="level1">
+<h1>Computational Photography</h1>
+<p><a href="https://github.com/yshao/streaming_stylized_video">Demo</a></p>
+</section>
+<section id="healthcare-informatics" class="level1">
+<h1>Healthcare Informatics</h1>
+<p><a href="https://drive.google.com/file/d/13xuuSkeBxm2p_4a6xcEwcivEBSPGTnGk/view">Slides</a></p>
+</section>
+<section id="human-computer-interface" class="level1">
+<h1>Human Computer Interface</h1>
+<p><a href="https://drive.google.com/file/d/1PkckABymcfSszvvqxs5EkAEuGiRnkQX2/view">Report</a></p>
+</section>
+<section id="educational-technology" class="level1">
+<h1>Educational Technology</h1>
+<p><a href="https://drive.google.com/file/d/1DXvbcIdjtE6hwXq_Jgcr6jyC0Txpy7zj/view">Report</a></p>
+</section>
+<section id="cognitive-system" class="level1">
+<h1>Cognitive System</h1>
+<p><a href="https://drive.google.com/file/d/1IMVuZRgeQUlw7P9NlDnSezzSjPO7ZLX2/view">Report</a></p>
+</section>
+<section id="machine-learning" class="level1">
+<h1>Machine Learning</h1>
+<p><a href="https://drive.google.com/file/d/1kCm_3Uy_b4Zdyyr1hrSY_8QrWIHH5zcn/view">Report</a></p>
+</section>
+<section id="machine-learning-for-trading" class="level1">
+<h1>Machine Learning for Trading</h1>
+<p><a href="https://drive.google.com/file/d/1bSTDHMe4d8KtWeO54eO7D-ZaLcByv2uV/view">Report</a></p>
 
 
 </section>
@@ -253,6 +294,14 @@ Yuping Shao. 2022. <span>“Work Experience in Colorado.”</span> May 18,
 <p>To train the deep learning algorithm for the detection, I prepared a cohort of 7800 patients found within ICU with sepsis condition as determined by the Sepsis-III definition published by the Center for Disease Control (CDC). Then working with the clinical informatics group at Emory to develop a model that predicts the onset of sepsis.</p>
 <p>The project introduces the importance of temporal context. For example, antibiotics medications are frequently given to patients within ICU, however, if antibiotics are given with certain number of times over 3 days when followed by microbiology culture test, then the medication was for sepsis treatment.</p>
 <p><a href="https://drive.hhs.gov/solvingsepsis.html">Website</a></p>
+</section>
+<section id="cdac-workshops" class="level2">
+<h2 class="anchored" data-anchor-id="cdac-workshops">CDAC Workshops</h2>
+<p>I was a organizer and main work leader in a series of workshop to introduce clinical researchers to big data analytics workflow. Work was in collaboration with Manohar Ghanta and Moura Valdery whom was a brain health contributor at the time.</p>
+<p><a href="https://docs.google.com/presentation/d/1rz72LBZZ-gt_CGk_8IS4G-8DXar4lXB1/edit?usp=share_link&amp;ouid=101489133791778609187&amp;rtpof=true&amp;sd=true">Workshop 1</a></p>
+<p><a href="https://docs.google.com/presentation/d/18sAd609dcV48GYIAIEScjqAzYt0krWNj/edit?usp=share_link&amp;ouid=101489133791778609187&amp;rtpof=true&amp;sd=true">Workshop 2</a></p>
+<p><a href="https://docs.google.com/presentation/d/1xdbfzSNvm_Y2xBrqVdqnfCEgx3JenC6I/edit?usp=share_link&amp;ouid=101489133791778609187&amp;rtpof=true&amp;sd=true">Workshop 3</a></p>
+<p><a href="https://docs.google.com/presentation/d/1RtFQRULnNA54MfntCrWerUsOdkLsC2nz/edit?usp=share_link&amp;ouid=101489133791778609187&amp;rtpof=true&amp;sd=true">Workshop 4</a></p>
 
 
 </section>
