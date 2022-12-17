@@ -66,7 +66,7 @@ Yuping Shao. 2022. <span>“VISLab - Current Research.”</span> May 18,
 <section id="georgiatech-work-in-a-5-minutes-video" class="level1">
 <h1>GeorgiaTech Work in a 5 minutes video</h1>
 <p>I received my training in computer science through Georgia Tech while employed as a full-time embedded system designer and software engineer at Boulder Environment Sciences and Tech (BEST). The topics of health informatics and big data in healthcare would later bring me together with the researchers in neurology at MGH.</p>
-<p>This video clip was prepared as part of PhD application demo. <a href="https://drive.google.com/file/d/15bq3rSjzFAH69RkQe0_An6muuSnkCzPw/edit">Video</a></p>
+<p>This video clip was prepared as part of Ph.D.&nbsp;application demo. <a href="https://drive.google.com/file/d/15bq3rSjzFAH69RkQe0_An6muuSnkCzPw/edit">Video</a></p>
 </section>
 <section id="digital-porfolio-in-progress-of-update" class="level1">
 <h1>Digital Porfolio (in progress of update…)</h1>
@@ -74,35 +74,56 @@ Yuping Shao. 2022. <span>“VISLab - Current Research.”</span> May 18,
 <section id="big-data-for-healthcare-analytics" class="level1">
 <h1>Big Data for Healthcare Analytics</h1>
 <p>MIMIC3 readmission prediction</p>
-<p>This class introduced many big data analytics method as applied to electronics health records processing. For the final thesis paper, I researched on the topic of readmission to hospital after discharge. I harvested the readmission labels from the MIMIC-3 database and then prepared features from patients’ vitals, labs, and demographics. The readmission label criterion looks for people who came back to hospital within 30 days, essentially discharged while their inpatient health progression would indicate for longer stay. The RNN (recurrent neural network) model with GRU in was built in pytorch, and then again in tensorflow. It achieved an AUROC of 71%. Though being a blackbox, it was not interpretable. From this project, I learned the importance of interpretability to make the model useful for advancing the understanding of healthcare science.</p>
+<p>This class introduced many big data analytics methods as applied to electronic health records processing. For the final thesis paper, I researched the topic of readmission to the hospital after discharge. I harvested the readmission labels from the MIMIC-3 database and then prepared features from patients’ vitals, labs, and demographics. The readmission label criterion looks for people who came back to the hospital within 30 days, essentially discharged while their inpatient health progression would indicate for a longer stay. The RNN (recurrent neural network) model with GRU was built in PyTorch, and then again in TensorFlow. It achieved an AUROC of 71%. Though being a black box, it was not interpretable. From this project, I learned the importance of interpretability to make the model useful for advancing the understanding of healthcare science.</p>
 <p><a href="https://drive.google.com/file/d/1T1iScfGKjeD0UIlGQAVlkLCwoK87f8rX/view">Report</a></p>
 </section>
 <section id="computational-photography" class="level1">
 <h1>Computational Photography</h1>
+<p>Cartoonize Me This is a fun class. After learning the basics of computer vision, this class uses the OpenCV and other image processing libraries to create effects on photos and videos. I also learned how to use an SLR camera, which is not easy to get right.</p>
 <p><a href="https://github.com/yshao/streaming_stylized_video">Demo</a></p>
+<p><a href="">Slides</a></p>
 </section>
 <section id="healthcare-informatics" class="level1">
 <h1>Healthcare Informatics</h1>
+<p>This class introduced me to one of the components of cognitive reasoning - bayesian trees/nets. It’s a team project to stream the FHIR informatics to a zikas virus detection web app. The algorithm part I implemented is a simple bayesian network based on risk factors of the patient’s medical history.</p>
 <p><a href="https://drive.google.com/file/d/13xuuSkeBxm2p_4a6xcEwcivEBSPGTnGk/view">Slides</a></p>
 </section>
 <section id="human-computer-interface" class="level1">
 <h1>Human Computer Interface</h1>
+<p>This is a design class that involves designing interactivity - in terms of cognition, communication, and computing device, and where interface could exist. Part design, part philosophical. Part architectural design, part survey work. Half individual, half group work.</p>
+<p>Our team designed a paper for an app using the principles from the class and designs a mobile-app that encourages adherence to a healthy lifestyle.</p>
 <p><a href="https://drive.google.com/file/d/1PkckABymcfSszvvqxs5EkAEuGiRnkQX2/view">Report</a></p>
 </section>
 <section id="educational-technology" class="level1">
 <h1>Educational Technology</h1>
+<p>Project KnowledgeCog</p>
+<p>With this project, I worked with an assigned advisor in the Educational Technology class to do independent research. I set out to research the methodology for building an intelligent tutor agent that could understand works of fiction and then assess and evaluate human users on their understanding of the readings. The agent utilizes NLP (natural language processing) to produce an auto-generated summary of paragraphs and link the sections of paragraphs as ordered concepts. The agent then presents the paragraphs to human users in order for them to put the paragraphs in order. From this activity, the agent assesses and evaluates the understanding of the human user. My mentor a Microsoft research scientist encouraged me to submit the report to Learning@Scale. This is an open draft that has not yet been submitted.</p>
 <p><a href="https://drive.google.com/file/d/1DXvbcIdjtE6hwXq_Jgcr6jyC0Txpy7zj/view">Report</a></p>
 </section>
 <section id="cognitive-system" class="level1">
 <h1>Cognitive System</h1>
+<p>Raven Progressive Matrices</p>
+<p>The first class I took as part of GaTech’s master of computer science degree. Turns out the ideas discussed in the class are much more than this introductory class could cover in a semester. I think cognition-inspired computation is really where it’s at for computational sciences.</p>
+<p>In this class, I built an agent to solve Raven Progressive Matrices, which is a human intelligence metric applied to measure AI intelligence.</p>
 <p><a href="https://drive.google.com/file/d/1IMVuZRgeQUlw7P9NlDnSezzSjPO7ZLX2/view">Report</a></p>
+</section>
+<section id="computer-vision" class="level1">
+<h1>Computer Vision</h1>
+<p>Computer vision fundamentals</p>
+<p>One of the first classes I took at GaTech. The instructor Aaron Bobick (currently a dean of engineering at Washington University) was just one of the greatest instructors at the institute. Really engaging instructor and pretty much like drinking from a firehose going through the class. The class covers fundamentals completely not including deep learning, hence would be considered “classical computer vision”</p>
 </section>
 <section id="machine-learning" class="level1">
 <h1>Machine Learning</h1>
+<p>WEKA, openai, R…, machine learning toolboxes</p>
+<p>The first machine learning class I took as part of GaTech’s master of computer science degree. It covers all the categories of machine learning, supervised learning, randomized optimization, unsupervised learning, reinforcement learning..etc</p>
+<p>I will find out later that there’s a self-, or semi-supervised learning that is a category of its own, too.</p>
+<p>Wrote 4 reports, one report for each category. This class is like drinking from a hose with each report.</p>
 <p><a href="https://drive.google.com/file/d/1kCm_3Uy_b4Zdyyr1hrSY_8QrWIHH5zcn/view">Report</a></p>
 </section>
 <section id="machine-learning-for-trading" class="level1">
 <h1>Machine Learning for Trading</h1>
+<p>Timeseries learning with robot</p>
+<p>This class has timeseries, robots, and QLearning! (and Deep RL) There’s a section on financial stock background, and the rest of the class is about reading timeseries signals and apply data science and data modeling to do predictive analytics. A very practical class that introduced me to pandas.</p>
 <p><a href="https://drive.google.com/file/d/1bSTDHMe4d8KtWeO54eO7D-ZaLcByv2uV/view">Report</a></p>
 
 
@@ -277,7 +298,7 @@ Yuping Shao. 2022. <span>“Work Experience in Colorado.”</span> May 18,
 
 <section id="clinical-data-animation-center---mgh" class="level1">
 <h1>Clinical Data Animation Center - MGH</h1>
-<p>I work at Mass General Hospital Neurology Department in a clinical data analytics group (CDAC - clinical data animation center) with PI neurologist Dr.&nbsp;Brandon Westover where neurophysiology/computational neuroscience/clinical science intersect. Working at CDAC gave me the opportunity to interact with physicians, postdocs, and biomedical analysts with specialized knowledge of the dynamical system of human brain physiology. Find machine learning/deep learning models that work well, it involves the curation of data to get concept representations learned from clinical data, forming a database of metadata. This compositional data concept system can be harnessed to build machine learning algorithms for many detection and prediction of degenerative states of the brain physiology and medical informatics. My typical projects involve wrangling multimodal data source ranging from waveforms like EEG/EKG, clinical timeseries like labs/vitals, sequentially updated physician notes, and preparing them into research-ready data through data cleaning, interrogating data statistics, rule-based label harvesting, data pattern classification with models, and discovering data correlation through predictive modeling and data exploration. Projects I have been involved in include but are not limited to - Prediction of the onset of sepsis with streaming electronic health records. - Large-scale visualization of Spatio-temporal patterns from seizure burden data. - Delirium predictive analytics on electronic health records. - Big data analytics on EEG processing. - Automated Surveillance for Ventilator-Associated Events.</p>
+<p>I worked at Mass General Hospital Neurology Department in a clinical data analytics group (CDAC - clinical data animation center) with PI neurologist Dr.&nbsp;Brandon Westover where neurophysiology/computational neuroscience/clinical science intersect. Working at CDAC gave me the opportunity to interact with physicians, postdocs, and biomedical analysts with specialized knowledge of the dynamical system of human brain physiology. Find machine learning/deep learning models that work well, it involves the curation of data to get concept representations learned from clinical data, forming a database of metadata. This compositional data concept system can be harnessed to build machine learning algorithms for many detection and prediction of degenerative states of the brain physiology and medical informatics. My typical projects involve wrangling multimodal data source ranging from waveforms like EEG/EKG, clinical timeseries like labs/vitals, sequentially updated physician notes, and preparing them into research-ready data through data cleaning, interrogating data statistics, rule-based label harvesting, data pattern classification with models, and discovering data correlation through predictive modeling and data exploration. Projects I have been involved in include but are not limited to - Prediction of the onset of sepsis with streaming electronic health records. - Large-scale visualization of Spatio-temporal patterns from seizure burden data. - Delirium predictive analytics on electronic health records. - Big data analytics on EEG processing. - Automated Surveillance for Ventilator-Associated Events.</p>
 <p>Professional data science competition include this one <a href="https://education.dellemc.com/content/dam/dell-emc/documents/en-us/2018KS_Tony-EEG_Report_to_Recordings_Matching_and_Text_Mining.pdf">EEG Report to Recordings Matching and Text Mining</a></p>
 <section id="large-scale-tsne-map" class="level2">
 <h2 class="anchored" data-anchor-id="large-scale-tsne-map">Large Scale tSNE Map</h2>
@@ -298,7 +319,7 @@ Yuping Shao. 2022. <span>“Work Experience in Colorado.”</span> May 18,
 <section id="cdac-workshops" class="level2">
 <h2 class="anchored" data-anchor-id="cdac-workshops">CDAC Workshops</h2>
 <p>I was a organizer and main work leader in a series of workshop to introduce clinical researchers to big data analytics workflow. Work was in collaboration with Manohar Ghanta and Moura Valdery whom was a brain health contributor at the time.</p>
-<p><a href="https://docs.google.com/presentation/d/1Q45tsaPYzTDs5cW3FkX26OkkuiA3K9Nq/edit?usp=sharing&amp;ouid=101489133791778609187&amp;rtpof=true&amp;sd=true">Big Data Analytics Workshop</a></p>
+<p>sanitized (deidentification applied) <a href="https://docs.google.com/presentation/d/1Q45tsaPYzTDs5cW3FkX26OkkuiA3K9Nq/edit?usp=sharing&amp;ouid=101489133791778609187&amp;rtpof=true&amp;sd=true">Big Data Analytics Workshop</a></p>
 <p><a href="https://docs.google.com/presentation/d/1rz72LBZZ-gt_CGk_8IS4G-8DXar4lXB1/edit?usp=share_link&amp;ouid=101489133791778609187&amp;rtpof=true&amp;sd=true">Workshop 1</a></p>
 <p><a href="https://docs.google.com/presentation/d/18sAd609dcV48GYIAIEScjqAzYt0krWNj/edit?usp=share_link&amp;ouid=101489133791778609187&amp;rtpof=true&amp;sd=true">Workshop 2</a></p>
 <p><a href="https://docs.google.com/presentation/d/1xdbfzSNvm_Y2xBrqVdqnfCEgx3JenC6I/edit?usp=share_link&amp;ouid=101489133791778609187&amp;rtpof=true&amp;sd=true">Workshop 3</a></p>
