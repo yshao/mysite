@@ -166,6 +166,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#research-topics-relates-to-optimization" id="toc-research-topics-relates-to-optimization" class="nav-link" data-scroll-target="#research-topics-relates-to-optimization">Research topics relates to Optimization</a>
   <ul>
   <li><a href="#optimization-techniques" id="toc-optimization-techniques" class="nav-link" data-scroll-target="#optimization-techniques">Optimization techniques</a></li>
+  <li><a href="#optimization-assumptions" id="toc-optimization-assumptions" class="nav-link" data-scroll-target="#optimization-assumptions">Optimization assumptions</a></li>
   </ul></li>
   <li><a href="#application-topics-related-to-registration" id="toc-application-topics-related-to-registration" class="nav-link" data-scroll-target="#application-topics-related-to-registration">Application topics related to registration</a>
   <ul>
@@ -183,14 +184,16 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="how-i-come-to-pointcloud-registration" class="level1">
 <h1>How I come to pointcloud registration</h1>
-<p>I’ve been working for many years, on a disciplined procedure for integrative merging between biomedical data and deep learning. To address this, I’ve been working with my advisor @ WPI to solve the fundamental problems that exist in multimodal dataset.</p>
-<p>Since data preprocessing and analysis could take up 85% of the time, we find this an area of opportunity for practical optimization. For heterogeneous, multi-modal data, this challenging and time-consuming task shares the fundamental problem in registration. A common and similar use-case is the navigation of autonomous vehicles, from which multi-modal datasets are plentiful and far less sparse and hence spurred much progress in computer vision methods for multi-modal data.</p>
+<p>I’ve been working for many years, on a disciplined procedure for an integrative merging between biomedical data and deep learning. To address this, I’ve been working with my advisor @ WPI to solve the fundamental problems that exist in multimodal dataset as an abstraction.</p>
+<p>Since data preprocessing and analysis could take up 85% of the time, we find this an area of opportunity for practical optimization. For heterogeneous, multi-modal data, this challenging and time-consuming task shares the fundamental problem - registration. A common and similar use-case is the navigation of autonomous vehicles, from which multi-modal datasets are plentiful and far less sparse and hence spurred much progress in computer vision methods for multi-modal data.</p>
 <p>Pointcloud is an N-dimensional dataset to perform research in multi-variate and multi-dimensional optimization. The bulk of my research is optimization methods on the registration problem - concretely, to improve upon the non-convexity of corresponding low dimensions, ie. the observational views of data. Since registration is a fundamental problem, it will show improvement on any downstream problem with any dataset, ie. domain adaptation, score ranking, tracking, etc.</p>
-<p>Therefore, I’m highly motivated to practical medical applications that could bring to data science the rigor of human reasoning and knowledge from the brain science/health science space.</p>
+<p>Hence, from here, I’m highly motivated to practical medical applications that could bring to data science the rigor of human reasoning and knowledge from the brain science/health science space.</p>
 </section>
 <section id="zero-shot-visual-recognition" class="level1">
 <h1>Zero-shot visual recognition</h1>
 <p>An area of immense interest is to connect the mechanisms that lead to safe and reliable machine learning/deep learning system. To this end, visual and semantics reasoning in the processing of the multi-modal representation is necessary for the compositionality of “objectness”. To exhibit robustness in this type of recognition system is the primary aim of zero-shot recognition.</p>
+<p>Mathematically, the pointcloud registration could be considered as a visual representation of graphical relationships between neighborhoods, this leads to an interoperability between several mathematical frameworks between patch-based (pixel, voxel, lines) and graph-based (network, node/links graph, DAG) representations. Illustraing the a variety of forms and formulations of duality between patch and graph.</p>
+<p>This duality makes it possible for variety of sampling assumptions to match between different sensor modalities. The matching depends on assumptions in regard to the modality. Hence, a rich area of possibilities that exist in building compositionality between the modalities based on sampling functions.</p>
 </section>
 <section id="research-topics-relates-to-optimization" class="level1">
 <h1>Research topics relates to Optimization</h1>
@@ -198,6 +201,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="optimization-techniques">Optimization techniques</h2>
 <pre><code>Sparsity
 Regularization</code></pre>
+</section>
+<section id="optimization-assumptions" class="level2">
+<h2 class="anchored" data-anchor-id="optimization-assumptions">Optimization assumptions</h2>
+<pre><code>Diffusion or the markov assumption
+Prototypes or component analysis</code></pre>
 </section>
 </section>
 <section id="application-topics-related-to-registration" class="level1">
@@ -209,7 +217,7 @@ Ultrasound</code></pre>
 </section>
 <section id="n-dimensional-signals" class="level2">
 <h2 class="anchored" data-anchor-id="n-dimensional-signals">N-dimensional signals</h2>
-<pre><code>multi-modal signals
+<pre><code>multi-modal signals/sensor fusion
 system-based synchronization</code></pre>
 
 

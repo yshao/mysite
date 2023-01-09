@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am currently PhD student at the VISLab at the Worcester Polytechnic Institute.\n\nResearch Interests\n\nZero-shot Visual Recognition\nOptimization\nBiomedical Data Science\nReal-Time Systems\n\n\n\nEducation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeorgia Institute of Technology\nM.S. in Computer Science specialization Interactive Intelligence\n\n\nAtlanta, GA\nGranted Dec 2017\n\n\n\n\nColorado State University\nB.S. in Electrical, Computer Engineering\n\n\nFort Collins, CO\nGranted Aug 2008\n\n\n\n\nAcademic Experience\n\n\nWorcester Polytechnic Institute\n\n\nJan 2021 - present\n\n\nPh.D. Student\n\nSupervised by Ziming Zhang\nCurrently 1st author CVPR submission under review\nCurrently two works in medical machine learning in submission\n\n\n\nTeaching\n\nGraduate Teaching Assistant\n\n\nTA for Digital Image Processing\n\n\nSpring 2021, 2022\n\n\n\n\nTA for Machine Learning for Engineers\n\n\nFall 2021, 2022\n\n\n\n\nTA for Digital Signal Processing\n\n\nSpring 2023\n\n\n\n\nResearch Mentor\n\n\nWPI Research Experience for Undergraduates (Data Science Department)\n\n\nSummer 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch & Industry Experience\n\n\nMassachusetts General Hospital\n\n\nMar 2018 - Dec 2020\n\n\nData Scientist\n\nPart of Sepsis ML collaboration between MGH, Emory and UCSD   \nDeveloped realtime informatics on predictive sepsis as the technical lead\n\n\n\nMassachusetts General Hospital\n\n\nSep 2016 - Mar 2018\n\n\nData Engineer\n\nPart of neuro critical care and infectious disease control collaboration at MGH\nDeveloped scalable waveform data storage for bedside informatics as the technical lead\n\n\n\nBoulder Environmental Sciences and Technology\n\n\nFeb 2014 - May 2015\n\n\nSoftware/System Engineer\n\nSupervised by Marian Klein\n\n\n\nSpectra Logic\n\n\nJul 2009 - Jul 2013\n\n\nSoftware/Hardware Engineer\n\n\nWoodward Governors\n\n\nJul 2008 - Apr 2009\n\n\nSoftware/System Engineer"
+    "text": "I am currently PhD student at the VISLab at the Worcester Polytechnic Institute.\n\nResearch Interests\n\nZero-shot Visual Recognition\nOptimization\nBiomedical Data Science\nReal-Time Systems\n\nHere is my resume in the industry prior to 2021 Resume\n\n\nEducation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeorgia Institute of Technology\nM.S. in Computer Science specialization Interactive Intelligence\n\n\nAtlanta, GA\nGranted Dec 2017\n\n\n\n\nColorado State University\nB.S. in Electrical, Computer Engineering\n\n\nFort Collins, CO\nGranted Aug 2008\n\n\n\n\nAcademic Experience\n\n\nWorcester Polytechnic Institute\n\n\nJan 2021 - present\n\n\nPh.D. Student\n\nSupervised by Ziming Zhang\nCurrently 1st author CVPR submission under review\nCurrently two works in medical machine learning in submission\n\n\n\nTeaching\n\nGraduate Teaching Assistant\n\n\nTA for Digital Image Processing\n\n\nSpring 2021, 2022\n\n\n\n\nTA for Machine Learning for Engineers\n\n\nFall 2021, 2022\n\n\n\n\nTA for Digital Signal Processing\n\n\nSpring 2023\n\n\n\n\nResearch Mentor\n\n\nWPI Research Experience for Undergraduates (Data Science Department)\n\n\nSummer 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch & Industry Experience\n\n\nMassachusetts General Hospital\n\n\nMar 2018 - Dec 2020\n\n\nData Scientist\n\nPart of Sepsis ML collaboration between MGH, Emory and UCSD   \nDeveloped realtime informatics on predictive sepsis as the technical lead\n\n\n\nMassachusetts General Hospital\n\n\nSep 2016 - Mar 2018\n\n\nData Engineer\n\nPart of neuro critical care and infectious disease control collaboration at MGH\nDeveloped scalable waveform data storage for bedside informatics as the technical lead\n\n\n\nBoulder Environmental Sciences and Technology\n\n\nFeb 2014 - May 2015\n\n\nSoftware/System Engineer\n\nSupervised by Marian Klein\n\n\n\nSpectra Logic\n\n\nJul 2009 - Jul 2013\n\n\nSoftware/Hardware Engineer\n\n\nWoodward Governors\n\n\nJul 2008 - Apr 2009\n\n\nSoftware/System Engineer"
   },
   {
     "objectID": "blog.html",
@@ -46,7 +46,7 @@
     "href": "cv_gen.html",
     "title": "Yuping Shao",
     "section": "",
-    "text": "Publications\n\n\n\nC:/Users/yshao/AppData/Local/Temp/RtmpKsD0Gf/file2b74401b66fd.yaml"
+    "text": "Publications\n\n\n\nC:/Users/yshao/AppData/Local/Temp/Rtmpk1fOj3/file9c6473452c6e.yaml"
   },
   {
     "objectID": "index.html",
@@ -67,7 +67,7 @@
     "href": "posts/current-research/index.html",
     "title": "VISLab - Current Research",
     "section": "",
-    "text": "I’ve been working for many years, on a disciplined procedure for integrative merging between biomedical data and deep learning. To address this, I’ve been working with my advisor @ WPI to solve the fundamental problems that exist in multimodal dataset.\nSince data preprocessing and analysis could take up 85% of the time, we find this an area of opportunity for practical optimization. For heterogeneous, multi-modal data, this challenging and time-consuming task shares the fundamental problem in registration. A common and similar use-case is the navigation of autonomous vehicles, from which multi-modal datasets are plentiful and far less sparse and hence spurred much progress in computer vision methods for multi-modal data.\nPointcloud is an N-dimensional dataset to perform research in multi-variate and multi-dimensional optimization. The bulk of my research is optimization methods on the registration problem - concretely, to improve upon the non-convexity of corresponding low dimensions, ie. the observational views of data. Since registration is a fundamental problem, it will show improvement on any downstream problem with any dataset, ie. domain adaptation, score ranking, tracking, etc.\nTherefore, I’m highly motivated to practical medical applications that could bring to data science the rigor of human reasoning and knowledge from the brain science/health science space."
+    "text": "I’ve been working for many years, on a disciplined procedure for an integrative merging between biomedical data and deep learning. To address this, I’ve been working with my advisor @ WPI to solve the fundamental problems that exist in multimodal dataset as an abstraction.\nSince data preprocessing and analysis could take up 85% of the time, we find this an area of opportunity for practical optimization. For heterogeneous, multi-modal data, this challenging and time-consuming task shares the fundamental problem - registration. A common and similar use-case is the navigation of autonomous vehicles, from which multi-modal datasets are plentiful and far less sparse and hence spurred much progress in computer vision methods for multi-modal data.\nPointcloud is an N-dimensional dataset to perform research in multi-variate and multi-dimensional optimization. The bulk of my research is optimization methods on the registration problem - concretely, to improve upon the non-convexity of corresponding low dimensions, ie. the observational views of data. Since registration is a fundamental problem, it will show improvement on any downstream problem with any dataset, ie. domain adaptation, score ranking, tracking, etc.\nHence, from here, I’m highly motivated to practical medical applications that could bring to data science the rigor of human reasoning and knowledge from the brain science/health science space."
   },
   {
     "objectID": "posts/current-research/index.html#optimization-techniques",
@@ -75,6 +75,13 @@
     "title": "VISLab - Current Research",
     "section": "Optimization techniques",
     "text": "Optimization techniques\nSparsity\nRegularization"
+  },
+  {
+    "objectID": "posts/current-research/index.html#optimization-assumptions",
+    "href": "posts/current-research/index.html#optimization-assumptions",
+    "title": "VISLab - Current Research",
+    "section": "Optimization assumptions",
+    "text": "Optimization assumptions\nDiffusion or the markov assumption\nPrototypes or component analysis"
   },
   {
     "objectID": "posts/current-research/index.html#biomedical-imaging",
@@ -88,7 +95,7 @@
     "href": "posts/current-research/index.html#n-dimensional-signals",
     "title": "VISLab - Current Research",
     "section": "N-dimensional signals",
-    "text": "N-dimensional signals\nmulti-modal signals\nsystem-based synchronization"
+    "text": "N-dimensional signals\nmulti-modal signals/sensor fusion\nsystem-based synchronization"
   },
   {
     "objectID": "posts/graduate/index.html",
