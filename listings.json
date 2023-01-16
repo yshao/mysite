@@ -2,12 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/current-research/index.html",
-      "/posts/graduate/index.html",
-      "/posts/neuroscience/index.html",
-      "/posts/undergraduate/index.html",
-      "/posts/work-experience/index.html",
-      "/posts/work-experience-boston/index.html"
+      "/blog/neuroscience/index.html"
     ]
   },
   {
