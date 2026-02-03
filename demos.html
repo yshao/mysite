@@ -64,28 +64,38 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <style>
+/* Hide table of contents sidebar */
+#quarto-margin-sidebar {
+  display: none !important;
+}
+
+/* Make main content wider without sidebar */
+.page-columns.page-rows-contents.page-layout-article {
+  grid-template-columns: 1fr !important;
+}
+
 .demo-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
   height: 100%;
 }
 
 .demo-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
 }
 
 .demo-card-img {
-  height: 200px;
+  height: 140px;
   object-fit: cover;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .demo-card-img img {
@@ -95,37 +105,40 @@ ul.task-list li input[type="checkbox"] {
 }
 
 .demo-card-body {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .demo-card-title {
   font-weight: 600;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   color: #2c3e50;
+  font-size: 1.1rem;
 }
 
 .demo-card-description {
   color: #6c757d;
-  margin-bottom: 1rem;
-  line-height: 1.6;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
 
 .demo-tech-badge {
   display: inline-block;
-  padding: 0.25rem 0.75rem;
-  margin: 0.25rem;
-  font-size: 0.75rem;
-  border-radius: 20px;
+  padding: 0.15rem 0.6rem;
+  margin: 0.15rem;
+  font-size: 0.7rem;
+  border-radius: 15px;
   background-color: #e9ecef;
   color: #495057;
 }
 
 .demo-btn {
   text-decoration: none;
-  padding: 0.5rem 1.25rem;
-  border-radius: 8px;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
   font-weight: 500;
   transition: all 0.2s ease;
+  font-size: 0.875rem;
 }
 
 .demo-btn-primary {
@@ -136,12 +149,12 @@ ul.task-list li input[type="checkbox"] {
 
 .demo-btn-primary:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 3px 12px rgba(102, 126, 234, 0.4);
   color: white;
 }
 
 .demo-card-footer {
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 1rem;
   background-color: #f8f9fa;
   border-top: 1px solid #e9ecef;
 }
@@ -229,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored">Demo Projects</h2>
 <p>Welcome to my demo projects page. This collection showcases interactive applications, data visualizations, and experimental projects built with various technologies including Python, JavaScript, machine learning frameworks, and web development tools.</p>
 
-<div class="row g-4 mt-3">
+<div class="row g-3 mt-2">
   <!-- Recipe Bot Card -->
   <div class="col-md-6 col-lg-4">
     <div class="card demo-card">
@@ -237,9 +250,9 @@ ul.task-list li input[type="checkbox"] {
         <img src="https://placehold.co/600x400/667eea/ffffff?text=Recipe+Bot&font=montserrat" alt="Recipe Bot Screenshot">
       </div>
       <div class="demo-card-body">
-        <h3 class="demo-card-title">Recipe Bot</h3>
-        <p class="demo-card-description">An AI-powered recipe evaluation and recommendation chatbot. Analyze recipes, get nutritional insights, and discover cooking tips through an interactive conversational interface.</p>
-        <div class="mb-3">
+        <h4 class="demo-card-title">Recipe Bot</h4>
+        <p class="demo-card-description">An AI-powered recipe evaluation and recommendation chatbot. Analyze recipes, get nutritional insights, and discover cooking tips.</p>
+        <div class="mb-2">
           <span class="demo-tech-badge">Python</span>
           <span class="demo-tech-badge">FastAPI</span>
           <span class="demo-tech-badge">OpenAI</span>
@@ -258,14 +271,14 @@ ul.task-list li input[type="checkbox"] {
   <div class="col-md-6 col-lg-4">
     <div class="card demo-card" style="border-style: dashed; border-color: #dee2e6;">
       <div class="demo-card-img" style="background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);">
-        <i class="bi bi-plus-circle" style="font-size: 3rem; color: #adb5bd;"></i>
+        <i class="bi bi-plus-circle" style="font-size: 2rem; color: #adb5bd;"></i>
       </div>
       <div class="demo-card-body">
-        <h3 class="demo-card-title">More Coming Soon</h3>
-        <p class="demo-card-description">I'm constantly working on new projects. Check back soon for more interactive demos and applications.</p>
+        <h4 class="demo-card-title">More Coming Soon</h4>
+        <p class="demo-card-description">I'm constantly working on new projects. Check back soon for more interactive demos.</p>
       </div>
       <div class="demo-card-footer">
-        <span class="text-muted" style="font-size: 0.875rem;">
+        <span class="text-muted" style="font-size: 0.8rem;">
           <i class="bi bi-clock"></i> Updated regularly
         </span>
       </div>
@@ -273,7 +286,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 
-<div class="callout-note callout callout-style-default callout-captioned mt-5">
+<div class="callout-note callout callout-style-default callout-captioned mt-4">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
