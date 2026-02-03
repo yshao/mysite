@@ -64,38 +64,28 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <style>
-/* Hide table of contents sidebar */
-#quarto-margin-sidebar {
-  display: none !important;
-}
-
-/* Make main content wider without sidebar */
-.page-columns.page-rows-contents.page-layout-article {
-  grid-template-columns: 1fr !important;
-}
-
 .demo-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
   height: 100%;
 }
 
 .demo-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
 .demo-card-img {
-  height: 140px;
+  height: 100px;
   object-fit: cover;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .demo-card-img img {
@@ -105,40 +95,40 @@ ul.task-list li input[type="checkbox"] {
 }
 
 .demo-card-body {
-  padding: 1rem;
+  padding: 0.75rem;
 }
 
 .demo-card-title {
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
   color: #2c3e50;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .demo-card-description {
   color: #6c757d;
-  margin-bottom: 0.75rem;
-  line-height: 1.5;
-  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  font-size: 0.8rem;
 }
 
 .demo-tech-badge {
   display: inline-block;
-  padding: 0.15rem 0.6rem;
-  margin: 0.15rem;
-  font-size: 0.7rem;
-  border-radius: 15px;
+  padding: 0.1rem 0.5rem;
+  margin: 0.1rem;
+  font-size: 0.65rem;
+  border-radius: 12px;
   background-color: #e9ecef;
   color: #495057;
 }
 
 .demo-btn {
   text-decoration: none;
-  padding: 0.4rem 1rem;
-  border-radius: 6px;
+  padding: 0.3rem 0.85rem;
+  border-radius: 5px;
   font-weight: 500;
   transition: all 0.2s ease;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
 }
 
 .demo-btn-primary {
@@ -154,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 }
 
 .demo-card-footer {
-  padding: 0.75rem 1rem;
+  padding: 0.6rem 0.75rem;
   background-color: #f8f9fa;
   border-top: 1px solid #e9ecef;
 }
@@ -213,10 +203,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
+    <h2 id="toc-title">Projects</h2>
 
   <ul>
-  <li><a href="#demo-projects" id="toc-demo-projects" class="nav-link active" data-scroll-target="#demo-projects">Demo Projects</a></li>
+  <li><a href="#demo-projects" id="toc-demo-projects" class="nav-link active" data-scroll-target="#demo-projects">Overview</a></li>
+  <li><a href="#recipe-bot" id="toc-recipe-bot" class="nav-link" data-scroll-target="#recipe-bot">Recipe Bot</a></li>
   </ul>
 </nav>
     </div>
@@ -241,6 +232,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="demo-projects" class="anchored">
 <h2 class="anchored">Demo Projects</h2>
 <p>Welcome to my demo projects page. This collection showcases interactive applications, data visualizations, and experimental projects built with various technologies including Python, JavaScript, machine learning frameworks, and web development tools.</p>
+</section>
+
+<section id="recipe-bot" class="anchored">
+<h3 class="anchored">Recipe Bot</h3>
 
 <div class="row g-3 mt-2">
   <!-- Recipe Bot Card -->
@@ -250,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
         <img src="https://placehold.co/600x400/667eea/ffffff?text=Recipe+Bot&font=montserrat" alt="Recipe Bot Screenshot">
       </div>
       <div class="demo-card-body">
-        <h4 class="demo-card-title">Recipe Bot</h4>
+        <h5 class="demo-card-title">Recipe Bot</h5>
         <p class="demo-card-description">An AI-powered recipe evaluation and recommendation chatbot. Analyze recipes, get nutritional insights, and discover cooking tips.</p>
         <div class="mb-2">
           <span class="demo-tech-badge">Python</span>
@@ -271,14 +266,14 @@ ul.task-list li input[type="checkbox"] {
   <div class="col-md-6 col-lg-4">
     <div class="card demo-card" style="border-style: dashed; border-color: #dee2e6;">
       <div class="demo-card-img" style="background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);">
-        <i class="bi bi-plus-circle" style="font-size: 2rem; color: #adb5bd;"></i>
+        <i class="bi bi-plus-circle" style="font-size: 1.5rem; color: #adb5bd;"></i>
       </div>
       <div class="demo-card-body">
-        <h4 class="demo-card-title">More Coming Soon</h4>
+        <h5 class="demo-card-title">More Coming Soon</h5>
         <p class="demo-card-description">I'm constantly working on new projects. Check back soon for more interactive demos.</p>
       </div>
       <div class="demo-card-footer">
-        <span class="text-muted" style="font-size: 0.8rem;">
+        <span class="text-muted" style="font-size: 0.75rem;">
           <i class="bi bi-clock"></i> Updated regularly
         </span>
       </div>
